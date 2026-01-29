@@ -9,6 +9,8 @@ featuredImage: "/blog/_featured/game-developers-conference-2019.png"
 
 # Game Developers Conference 2019
 
+![GDC 2019 Logo](../../public/blog/game-developers-conference-2019/GDC19Logo.png)
+
 This blog post chronicles a five-day visit to GDC 2019 in San Francisco, attended by the author and three colleagues. The writer, a four-time GDC veteran, documents daily experiences, presentations, and technical insights gained throughout the conference.
 
 ## Day 0: Arrival

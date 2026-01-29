@@ -25,6 +25,8 @@ The team drew inspiration from *Wargroove* and adopted design philosophy from in
 
 This constraint-based approach prevents accidental color violations. The asset pipeline automatically converts artwork into indexed color format, flagging out-of-bounds colors with bright red warnings. Artists' original work undergoes processing where each pixel matches the nearest palette color, producing grayscale indexed images that reference the palette through post-processing shaders.
 
+![Indexed rendering example](../../public/blog/crafting-beauty-through-limitations/Blogpost-Image1.png)
+
 ## Key Advantages
 
 - **Consistency**: All visuals adhere to identical artistic rules

@@ -12,7 +12,10 @@
       "Bash(do echo \"=== $url ===\")",
       "Bash(done)",
       "Bash(ls:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "WebFetch(domain:jagacogames.github.io)",
+      "WebFetch(domain:www.jagaco.com)",
+      "Bash(npm run dev)"
     ]
   }
 }
