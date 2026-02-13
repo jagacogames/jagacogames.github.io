@@ -37,3 +37,21 @@ export interface BlogPostMetadata {
   tags: string[];
   featuredImage?: string;
 }
+
+export interface GameMetadata {
+  id: string;
+  slug: string;
+  title: string;
+  description: string;
+  genre: string[];
+  platforms: string[];
+  releaseDate: string;
+  thumbnail: string;
+  screenshots: string[];
+  storeLinks?: {
+    steam?: string;
+    itch?: string;
+    gog?: string;
+  };
+  features: string[];
+}

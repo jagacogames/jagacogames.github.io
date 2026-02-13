@@ -1,20 +1,25 @@
 @import "tailwindcss";
 
 :root {
-  --background: #030712;
-  --foreground: #ffffff;
+  --jagaco-yellow: #FDB614;
+  --jagaco-pink: #E91E63;
+  --jagaco-blue: #4A90E2;
+  --jagaco-green: #7FBA00;
+  --jagaco-orange: #FF8C42;
+  --jagaco-purple: #9C27B0;
+  --jagaco-light-gray: #E8E8E8;
+  --jagaco-dark: #2C3E50;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-inter);
+  --font-sans: var(--font-roboto);
+  --font-display: var(--font-roboto);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-inter), system-ui, sans-serif;
+  background: #ffffff;
+  color: #2C3E50;
+  font-family: var(--font-roboto), system-ui, sans-serif;
 }
 
 * {
@@ -23,4 +28,106 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.6s ease-out forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.6s ease-out forwards;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.5s ease-out forwards;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Stagger animations */
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+.stagger-5 { animation-delay: 0.5s; }
+.stagger-6 { animation-delay: 0.6s; }
+.stagger-7 { animation-delay: 0.7s; }
+
+/* Isometric shadows */
+.isometric-shadow {
+  box-shadow:
+    8px 8px 0px rgba(0, 0, 0, 0.1),
+    16px 16px 0px rgba(0, 0, 0, 0.05);
+}
+
+.isometric-card {
+  transform: perspective(1000px) rotateX(2deg);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.isometric-card:hover {
+  transform: perspective(1000px) rotateX(0deg) translateY(-8px);
+  box-shadow:
+    12px 12px 0px rgba(0, 0, 0, 0.15),
+    24px 24px 0px rgba(0, 0, 0, 0.08);
 }

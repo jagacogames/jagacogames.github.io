@@ -1,31 +1,56 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-900 border-b border-gray-800">
+    <nav className="absolute top-0 left-0 right-0 z-50 bg-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
-          <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-cyan-400 hover:text-cyan-300 transition-colors">
-              JAGACO
-            </Link>
-          </div>
+        <div className="flex justify-between items-center h-20">
+          {/* Logo */}
+          <Link href="/" className="flex items-center gap-2 group">
+            <div className="relative w-12 h-12 group-hover:scale-110 transition-transform">
+              <Image
+                src="/images/jagaco-logo.png"
+                alt="Jagaco Logo"
+                fill
+                className="object-contain"
+              />
+            </div>
+            <span className="text-[40px] font-bold text-white leading-none">
+              Jagaco
+            </span>
+          </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-gray-300 hover:text-white transition-colors">
-              Home
+          <div className="hidden md:flex items-center gap-8">
+            <Link
+              href="/blog"
+              className="text-white hover:text-[#FDB614] transition-colors font-medium text-[14px] uppercase tracking-wide"
+            >
+              BLOG
             </Link>
-            <Link href="/games" className="text-gray-300 hover:text-white transition-colors">
-              Games
+            <Link
+              href="/games"
+              className="text-white hover:text-[#FDB614] transition-colors font-medium text-[14px] uppercase tracking-wide"
+            >
+              GAMES
             </Link>
-            <Link href="/blog" className="text-gray-300 hover:text-white transition-colors">
-              Blog
+            <Link
+              href="/engine"
+              className="text-white hover:text-[#FDB614] transition-colors font-medium text-[14px] uppercase tracking-wide"
+            >
+              ENGINE
+            </Link>
+            <Link
+              href="/#team"
+              className="text-white hover:text-[#FDB614] transition-colors font-medium text-[14px] uppercase tracking-wide"
+            >
+              TEAM
             </Link>
           </div>
 
@@ -33,7 +58,7 @@ export default function Navigation() {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-300 hover:text-white focus:outline-none"
+              className="text-white hover:text-[#FDB614] focus:outline-none"
               aria-label="Toggle menu"
             >
               <svg
@@ -58,28 +83,35 @@ export default function Navigation() {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden bg-gray-800 border-t border-gray-700">
-          <div className="px-2 pt-2 pb-3 space-y-1">
+        <div className="md:hidden bg-white/95 backdrop-blur-sm border-t border-gray-200">
+          <div className="px-4 pt-2 pb-3 space-y-1">
             <Link
-              href="/"
-              className="block px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded-md transition-colors"
+              href="/blog"
+              className="block px-3 py-2 text-gray-900 hover:text-[#FDB614] hover:bg-gray-50 rounded-md transition-colors font-medium"
               onClick={() => setIsMenuOpen(false)}
             >
-              Home
+              BLOG
             </Link>
             <Link
               href="/games"
-              className="block px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded-md transition-colors"
+              className="block px-3 py-2 text-gray-900 hover:text-[#FDB614] hover:bg-gray-50 rounded-md transition-colors font-medium"
               onClick={() => setIsMenuOpen(false)}
             >
-              Games
+              GAMES
             </Link>
             <Link
-              href="/blog"
-              className="block px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded-md transition-colors"
+              href="/engine"
+              className="block px-3 py-2 text-gray-900 hover:text-[#FDB614] hover:bg-gray-50 rounded-md transition-colors font-medium"
               onClick={() => setIsMenuOpen(false)}
             >
-              Blog
+              ENGINE
+            </Link>
+            <Link
+              href="/#team"
+              className="block px-3 py-2 text-gray-900 hover:text-[#FDB614] hover:bg-gray-50 rounded-md transition-colors font-medium"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              TEAM
             </Link>
           </div>
         </div>
