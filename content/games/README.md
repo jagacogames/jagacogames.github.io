@@ -7,6 +7,9 @@ This directory contains markdown files for each game displayed on the website.
 - Each game should have its own `.md` file
 - The filename (without `.md`) becomes the game's URL slug
 - Example: `shadow-realm.md` → `/games/shadow-realm`
+- **Ignored files:**
+  - Files starting with `_` (underscore) - Example: `_TEMPLATE.md`
+  - `README.md` - This documentation file
 
 ## Frontmatter Structure
 

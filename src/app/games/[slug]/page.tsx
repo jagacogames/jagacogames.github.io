@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { getGameBySlug, getAllGameSlugs } from '@/lib/markdown';
 import ReactMarkdown from 'react-markdown';
 
@@ -73,13 +74,23 @@ export default async function GameDetailPage({ params }: PageProps) {
               </div>
             </div>
 
-            <div className="aspect-video bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 flex items-center justify-center">
-              <div className="text-white/60">
-                <svg className="w-24 h-24 mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h18v14zm-10-7c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4zm4-3c0-.55-.45-1-1-1s-1 .45-1 1v7c0 .55.45 1 1 1s1-.45 1-1V9zm4 1c0-.55-.45-1-1-1s-1 .45-1 1v6c0 .55.45 1 1 1s1-.45 1-1v-6z"/>
-                </svg>
-                <p className="text-center">Game Screenshot</p>
-              </div>
+            <div className="aspect-video bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 flex items-center justify-center p-8">
+              {game.thumbnail ? (
+                <Image
+                  src={game.thumbnail}
+                  alt={game.title}
+                  width={600}
+                  height={400}
+                  className="object-contain w-full h-full"
+                />
+              ) : (
+                <div className="text-white/60">
+                  <svg className="w-24 h-24 mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h18v14zm-10-7c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4zm4-3c0-.55-.45-1-1-1s-1 .45-1 1v7c0 .55.45 1 1 1s1-.45 1-1V9zm4 1c0-.55-.45-1-1-1s-1 .45-1 1v6c0 .55.45 1 1 1s1-.45 1-1v-6z"/>
+                  </svg>
+                  <p className="text-center">Game Screenshot</p>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -122,9 +133,15 @@ export default async function GameDetailPage({ params }: PageProps) {
                 {game.screenshots.map((screenshot, index) => (
                   <div
                     key={index}
-                    className="aspect-video bg-gradient-to-br from-gray-200 to-gray-300 rounded-lg border border-gray-200 flex items-center justify-center"
+                    className="aspect-video bg-gradient-to-br from-gray-200 to-gray-300 rounded-lg border border-gray-200 overflow-hidden"
                   >
-                    <div className="text-gray-400 text-sm">Screenshot {index + 1}</div>
+                    <Image
+                      src={screenshot}
+                      alt={`${game.title} screenshot ${index + 1}`}
+                      width={800}
+                      height={450}
+                      className="object-cover w-full h-full"
+                    />
                   </div>
                 ))}
               </div>

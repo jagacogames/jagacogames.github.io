@@ -66,7 +66,11 @@ export function getAllGames(): GameMetadata[] {
 
   const fileNames = fs.readdirSync(gamesDirectory);
   const allGamesData = fileNames
-    .filter(fileName => fileName.endsWith('.md'))
+    .filter(fileName =>
+      fileName.endsWith('.md') &&
+      !fileName.startsWith('_') &&
+      fileName.toUpperCase() !== 'README.MD'
+    )
     .map(fileName => {
       const slug = fileName.replace(/\.md$/, '');
       const fullPath = path.join(gamesDirectory, fileName);
@@ -123,6 +127,10 @@ export function getAllGameSlugs(): string[] {
 
   const fileNames = fs.readdirSync(gamesDirectory);
   return fileNames
-    .filter(fileName => fileName.endsWith('.md'))
+    .filter(fileName =>
+      fileName.endsWith('.md') &&
+      !fileName.startsWith('_') &&
+      fileName.toUpperCase() !== 'README.MD'
+    )
     .map(fileName => fileName.replace(/\.md$/, ''));
 }

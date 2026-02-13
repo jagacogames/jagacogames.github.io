@@ -1,12 +1,11 @@
 import Link from 'next/link';
-import { getAllBlogPosts } from '@/lib/markdown';
-import { games } from '@/data/games';
+import { getAllBlogPosts, getAllGames } from '@/lib/markdown';
 import GameCard from '@/components/GameCard';
 import BlogCard from '@/components/BlogCard';
 import HeroCarousel from '@/components/HeroCarousel';
 
 export default function Home() {
-  const latestGames = games.slice(0, 3);
+  const latestGames = getAllGames().slice(0, 3);
   const recentPosts = getAllBlogPosts().slice(0, 3);
 
   return (
