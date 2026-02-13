@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Jagaco Studios - Indie Game Development',
+    title: 'Jagaco Games - Indie Game Development',
     description: 'Creating unique and engaging gaming experiences',
     creator: '@JagacoGames',
     images: ['/images/og-image.png'],

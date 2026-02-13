@@ -217,7 +217,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Special Thanks / CTA Section */}
+      {/* Special Thanks Section */}
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 uppercase">
@@ -229,12 +229,9 @@ export default function Home() {
           <p className="text-gray-900 font-bold text-xl mb-8">
             ARE WE MISSING ANYONE?
           </p>
-          <p className="text-gray-600 mb-8">
-            Feel like you should be part of this epic team? Although we don't have vacancies at the moment, contact us if you'd like to work here!
+          <p className="text-gray-600">
+            Feel like you should be part of this epic team? Although we don't have vacancies at the moment, we'd love to hear from you!
           </p>
-          <button className="px-8 py-3 bg-[#E91E63] hover:bg-[#C2185B] text-white font-bold rounded-full uppercase transition-colors shadow-lg">
-            CONTACT US
-          </button>
         </div>
       </section>
     </div>
