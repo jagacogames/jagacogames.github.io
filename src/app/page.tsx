@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { getAllBlogPosts, getAllGames } from '@/lib/markdown';
 import GameCard from '@/components/GameCard';
 import BlogCard from '@/components/BlogCard';
@@ -155,65 +156,62 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
             {/* Team Member 1 */}
             <div className="text-center animate-scale-in">
-              <div className="w-32 h-32 mx-auto bg-blue-500 rounded-lg mb-4 flex items-center justify-center text-white font-bold text-4xl">
-                👨‍💼
+              <div className="w-32 h-32 mx-auto rounded-lg mb-4 overflow-hidden">
+                <Image
+                  src="/images/team/Vincent.webp"
+                  alt="Vincent Broeren"
+                  width={128}
+                  height={128}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h3 className="font-bold text-sm uppercase">VINCENT BROEREN</h3>
-              <p className="text-gray-600 text-xs">PETER DEVELOPER</p>
+              <p className="text-gray-600 text-xs">CODIN PALADIN</p>
             </div>
 
             {/* Team Member 2 */}
             <div className="text-center animate-scale-in stagger-1">
-              <div className="w-32 h-32 mx-auto bg-orange-500 rounded-lg mb-4 flex items-center justify-center text-white font-bold text-4xl">
-                👨‍🦱
+              <div className="w-32 h-32 mx-auto rounded-lg mb-4 overflow-hidden">
+                <Image
+                  src="/images/team/Remco.webp"
+                  alt="Remco Brilstra"
+                  width={128}
+                  height={128}
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="font-bold text-sm uppercase">REMCO RILLSTRA</h3>
-              <p className="text-gray-600 text-xs">CTO & LEAD DESIGNER</p>
+              <h3 className="font-bold text-sm uppercase">REMCO BRILSTRA</h3>
+              <p className="text-gray-600 text-xs">CODE ROGUE</p>
             </div>
 
             {/* Team Member 3 */}
             <div className="text-center animate-scale-in stagger-2">
-              <div className="w-32 h-32 mx-auto bg-green-500 rounded-lg mb-4 flex items-center justify-center text-white font-bold text-4xl">
-                👨‍💻
+              <div className="w-32 h-32 mx-auto rounded-lg mb-4 overflow-hidden">
+                <Image
+                  src="/images/team/Wilco.webp"
+                  alt="Wilco van Starreburg"
+                  width={128}
+                  height={128}
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="font-bold text-sm uppercase">WILCO VAN 'T VEERSMERG</h3>
-              <p className="text-gray-600 text-xs">DEVELOPER</p>
+              <h3 className="font-bold text-sm uppercase">WILCO VAN STARREBURG</h3>
+              <p className="text-gray-600 text-xs">PIXEL WIZARD</p>
             </div>
 
             {/* Team Member 4 */}
-            <div className="text-center animate-scale-in stagger-3">
-              <div className="w-32 h-32 mx-auto bg-blue-400 rounded-lg mb-4 flex items-center justify-center text-white font-bold text-4xl">
-                👨‍🎨
-              </div>
-              <h3 className="font-bold text-sm uppercase">THOMAS TELESTRA</h3>
-              <p className="text-gray-600 text-xs">DIRECTOR & CFO</p>
-            </div>
-
-            {/* Team Member 5 */}
-            <div className="text-center animate-scale-in stagger-4">
-              <div className="w-32 h-32 mx-auto bg-pink-400 rounded-lg mb-4 flex items-center justify-center text-white font-bold text-4xl">
-                👩‍💼
-              </div>
-              <h3 className="font-bold text-sm uppercase">MARCO JAN UL</h3>
-              <p className="text-gray-600 text-xs">ANIMATION INTERN</p>
-            </div>
-
-            {/* Team Member 6 */}
-            <div className="text-center animate-scale-in stagger-5">
-              <div className="w-32 h-32 mx-auto bg-orange-400 rounded-lg mb-4 flex items-center justify-center text-white font-bold text-4xl">
-                👨‍🔧
-              </div>
-              <h3 className="font-bold text-sm uppercase">FABIAN VAN DORST</h3>
-              <p className="text-gray-600 text-xs">2D ART INTERN</p>
-            </div>
-
-            {/* Team Member 7 */}
             <div className="text-center animate-scale-in stagger-6">
-              <div className="w-32 h-32 mx-auto bg-green-400 rounded-lg mb-4 flex items-center justify-center text-white font-bold text-4xl">
-                👨‍🚀
+              <div className="w-32 h-32 mx-auto rounded-lg mb-4 overflow-hidden">
+                <Image
+                  src="/images/team/Mathijs.webp"
+                  alt="Mathijs Koning"
+                  width={128}
+                  height={128}
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="font-bold text-sm uppercase">MARIJN JANSOMS</h3>
-              <p className="text-gray-600 text-xs">FREELANCE AUDIO MUSIC</p>
+              <h3 className="font-bold text-sm uppercase">MATHIJS KONING</h3>
+              <p className="text-gray-600 text-xs">AUDIO DUDE</p>
             </div>
           </div>
         </div>

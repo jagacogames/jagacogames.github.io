@@ -5,9 +5,9 @@ import { useState, useEffect } from 'react';
 export default function HeroCarousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
-    { title: 'BLOKJE OM', color: '#4A90E2' },
-    { title: 'ALPHA', color: '#E91E63' },
-    { title: 'UNGOVERNED LANDS', color: '#7FBA00' },
+    { title: 'BLOKJE OM', color: '#4A90E2', image: '/images/hero/blokje-om.png', subtitle: 'TRAFFIC TRAINING GAME' },
+    { title: 'ALPHA', color: '#E91E63', image: '/images/hero/alpha.png', subtitle: 'SURVIVAL STRATEGY GAME' },
+    { title: 'UNGOVERNED LANDS', color: '#7FBA00', image: '/images/hero/ungoverned-lands.png', subtitle: 'OPEN WORLD ADVENTURE' },
   ];
 
   useEffect(() => {
@@ -19,19 +19,21 @@ export default function HeroCarousel() {
 
   return (
     <section className="relative h-[600px] md:h-[700px] overflow-hidden bg-gradient-to-br from-sky-400 via-blue-500 to-blue-600">
-      {/* Animated Background */}
-      <div className="absolute inset-0 opacity-20">
-        <div className="absolute top-20 left-10 w-32 h-32 bg-white rounded-full animate-float" />
-        <div className="absolute top-40 right-20 w-24 h-24 bg-white rounded-full animate-float" style={{ animationDelay: '1s' }} />
-        <div className="absolute bottom-32 left-1/4 w-40 h-40 bg-white rounded-full animate-float" style={{ animationDelay: '2s' }} />
-      </div>
-
-      {/* Placeholder for game screenshot */}
-      <div className="absolute inset-0 flex items-center justify-center">
-        <div className="text-center text-white/30 text-2xl font-bold">
-          [Game Screenshot Carousel]
-        </div>
-      </div>
+      {/* Background Images */}
+      {slides.map((slide, index) => (
+        <div
+          key={index}
+          className={`absolute inset-0 transition-opacity duration-1000 ${
+            currentSlide === index ? 'opacity-100' : 'opacity-0'
+          }`}
+          style={{
+            backgroundImage: `url('${slide.image}')`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+          }}
+        />
+      ))}
 
       {/* Bottom Overlay Bar - Dark gradient for better text contrast */}
       <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-black/50 via-black/30 to-transparent z-10"></div>
@@ -44,7 +46,7 @@ export default function HeroCarousel() {
         {/* Red subtitle bar - matching the design */}
         <div className="bg-[#E91E63] inline-block px-6 py-2 animate-fade-in-up stagger-1">
           <p className="text-[16px] md:text-[20px] text-white uppercase leading-tight font-medium tracking-wide">
-            TRAFFIC TRAINING GAME
+            {slides[currentSlide].subtitle}
           </p>
         </div>
       </div>
