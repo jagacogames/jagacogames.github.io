@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Game } from '@/types';
+import { GameMetadata } from '@/types';
 
 interface GameCardProps {
-  game: Game;
+  game: GameMetadata;
 }
 
 export default function GameCard({ game }: GameCardProps) {
