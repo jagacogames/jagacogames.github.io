@@ -7,16 +7,18 @@ tags: ["tech", "graphics", "shaders"]
 featuredImage: "/blog/_featured/flexible-effect-system.png"
 ---
 
-Our engine is utilized in a commercially released game (Alpha), but as a programmer I recognize areas where the codebase requires refinement. While stability remains solid, the shader implementation was largely hardcoded—an issue demanding attention.
+Our engine is used in a commercially applied game (Alpha), but as a programmer I know where the code can use some more love. Most important is of course that the code base is stable (which it is!), but our shader system was mostly hard coded. As a programmer that's something that keeps me awake at night, so it was time to put it on the planning and fix the problem.
 
 ## Different versions
 
-A primary obstacle involved supporting multiple graphics APIs: DirectX 9 and DirectX 11, plus OpenGL variants. The team sought a system converting DX9 effects to DX11 and vice versa, eliminating duplicate shader coding. The effect system performs lexicographical analysis on input strings, constructing an Effect object containing necessary information for runtime compilation to API-specific formats (DX9 or DX11).
+One of the challenges was that we have to support at least DX9 and DX11 (besides OGL versions) and we wanted a system that could translate DX9 effects to DX11 and vice versa (preventing us from writing the same shader in different versions). The effect system can lexicographical analyze an input string and build an Effect from it. That Effect class holds all the information so the run-time system can compile the Effect to an API specific Effect (DX9 or DX11).
 
 ## Another challenge
 
-Upon testing the new system, unforeseen complications emerged. The previously hardcoded effects utilized vertex and pixel shaders rather than proper Effect objects. The entire graphics subsystem depended on vertex and fragment shader programs exclusively, lacking any mechanism to specify which technique to employ from a given Effect, since it presumed only one shader program pair existed.
+When the loading part was done I could start testing the usage of the new system, and that opened a whole new set of challenges. Without knowing we build the hard coded 'effects' as shaders instead of Effects. So the whole graphics part of the engine was relying on vertex and pixel (fragment) shaders instead of an Effect which has (multiple) shaders in it. There was no way of telling the renderer which technique to use of the given Effect because it always assumed there was only one vertex and pixel shader program.
 
 ## Round up
 
-The restructuring is complete. Refactoring the Effect system to be fully flexible required modifying nearly every graphics subsystem component within the Fire engine, proving worthwhile. The implementation now allows developers to create Effects freely, enhancing usability significantly. The new approach demonstrates that "flexibility comes at the cost of simplicity" need not always apply—in this case, enabling greater ease of use.
+It is done and I can sleep comfortably again (for now). Changing the Effect system to a fully flexible one made me touch every part of the graphics subsystem of the Fire engine, but it was worth it. The saying "Flexibility comes at the cost of simplicity" doesn't go here, because the system now enables us to write the Effects when and where ever we want them. Making it a lot easier to use.
+
+To the next challenge…

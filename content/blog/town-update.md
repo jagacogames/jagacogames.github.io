@@ -7,36 +7,26 @@ tags: ["Quinn's Quest", "game-development", "level-design"]
 featuredImage: "/blog/_featured/town-update.png"
 ---
 
-The development team shares progress on their open-world RPG project. The game draws inspiration from classic Gameboy Zelda titles, emphasizing "puzzles, combat with loads of different enemy types" alongside a strong narrative component featuring gathering and crafting mechanics.
+We have been steadily working on the RPG that Vincent brought up in our previous post, and are ready to show you the first town in our next game.
 
-## The Protagonist's Home
+We will do a proper introduction of the game at a later point, but in short, our game is an open world RPG that takes a lot of inspiration from the Gameboy Zelda games (puzzles, combat with loads of different enemy types) and a heavy narrative focus, with gathering & crafting to enrich the experience.
 
-Players assume the role of a young protagonist who begins in his hometown before encountering larger adventures. The team is currently enhancing the town's atmosphere by introducing:
+We play as a young boy who eventually finds himself involved in adventures far bigger and scarier than the ones he would daydream about, but back at the start of his story, we get to explore his home town.
 
-- NPCs with daily schedules
-- Environmental details like vegetation and wildlife
-- Side-quest content
+## The town square
 
 ![Town square](../../public/blog/town-update/image-1.png)
 
-## Design Iterations
-
-The developers noted they've iterated on the town design multiple times. Earlier iterations featured overly ornate structures unsuitable for their "medieval farmers village" aesthetic, prompting them to relocate those buildings to a more affluent area.
+## The southern edge of town
 
 ![Southern edge of town](../../public/blog/town-update/Quinn_TrvtUhpwY6.png)
 
-## Creating Atmosphere
+Currently we are adding things to make the town feel more alive. We already have NPC's with schedules, that go about their business every day, but we feel we can add more life to it by having critters, gently waving reeds, grass and trees. More NPC's also couldn't hurt, as well as some side-quests for the player to interact with.
 
-A town isn't just buildings—it's the people who live there, the animals that wander the streets, the gardens that grow, and the stories that unfold. We're focusing on making this starting location feel alive and memorable.
+## A past version
+
+Since we've been working on this game for a couple years already, it shouldn't come to a surprise to anyone that there have been multiple iterations of the town. The structures we placed in the town initially were far too nice for the 'medieval farmers village' look we're going for, so we have moved them to a richer town.
+
+## An older version of the town, with buildings that were way too fancy
 
 ![Older version with ornate buildings](../../public/blog/town-update/greymont_total_v4.png)
-
-## What's Next?
-
-As we continue development, we're:
-- Adding more NPCs with unique personalities
-- Creating side quests that reveal the town's history
-- Populating the environment with atmospheric details
-- Ensuring players feel emotionally connected to this place before they leave
-
-The hometown is more than just a tutorial area—it's a place players will want to return to.

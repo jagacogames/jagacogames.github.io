@@ -7,10 +7,8 @@ tags: ["news", "team", "entertainment"]
 featuredImage: "/blog/_featured/warcraft-the-movie.png"
 ---
 
-After working hard for several weeks, the Jagaco team took time for relaxation and team bonding by attending the new Warcraft film. The crew traveled several hundred kilometers to experience the movie at the nation's largest cinema, finding the journey worthwhile.
+After having worked hard for the last couple of weeks we had to make time for some relaxation and team building. The whole Jagaco crew went to see the new Warcraft movie! We drove a couple of hundred kilometers to see it, because we wanted to see the movie in the largest cinema (or in simplified English: movie theater) of our country. And it was worth it!
 
-The programmers at Jagaco had been playing World of Warcraft since its inception, making the experience of "recognizing all the characters and locations in the movie was awesome." While certain narrative elements didn't fully align with the game's established lore, this didn't diminish the film's epic scope.
+Sure some parts of the movie didn't fully cover/honor the lore of the game, but that didn't make the movie less epic. Please make some sequels, and we promise to watch them all!
 
-The team expressed enthusiasm for future installments, stating: "Please make some sequels, and we promise to watch them all!"
-
-The post concludes with the crew returning to their development work.
+And now quickly back to work...

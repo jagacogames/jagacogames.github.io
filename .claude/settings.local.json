@@ -21,7 +21,10 @@
       "Bash(wc:*)",
       "Bash(dir:*)",
       "Bash(findstr:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "WebFetch(domain:web.archive.org)",
+      "WebSearch"
     ]
   }
 }
+

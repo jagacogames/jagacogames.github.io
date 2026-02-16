@@ -7,16 +7,10 @@ tags: ["news", "Nintendo", "Switch"]
 featuredImage: "/blog/_featured/the-nintendo-switch-released.png"
 ---
 
-Two of the three programmers at Jagaco Games acquired Nintendo Switch units with Zelda: Breath of the Wild, significantly impacting office productivity. The team established a workplace policy: "No playing on the Switch during working hours," though demonstrations of game discoveries received brief exceptions.
+Two (out of three) of our programmers got the Nintendo Switch with Zelda Breath of the Wild last week. I can tell you that the release is NOT good for the productivity of them (me included). We made a new rule at the office: "No playing on the Switch during working hours", but showing cool new stuff in Zelda is allowed (for only a few minutes). The rule only works partially, because staying up all night till 5 a.m. and then trying to be productive the next day is also not a very good combination. But Zelda is worth it, the game is absolutely amazing! Well done Nintendo!
 
-Despite implementing this rule, late-night gaming sessions extending until 5 a.m. created fatigue challenges the following workday. However, the developers considered the experience worthwhile, praising the game's quality and Nintendo's execution.
+On a more serious side; the way Nintendo is embracing the Indie-developers is a very refreshing approach. At Jagaco we are already thinking about our own Nintendo Switch game. Till November we're fully booked, but after that we are exploring the possibilities to become a Nindie (Nintendo Indie). The price of a development kit is very affordable (only $500,-) and making our Fire engine run on the Switch doesn't look that difficult. In the meantime we will be planning a Gamejam in which we can explore the possibilities of a game.
 
-## Nintendo's Indie-Friendly Approach
+Happy gaming to you all!
 
-The company highlighted Nintendo's welcoming stance toward independent developers as particularly noteworthy. Jagaco Games expressed interest in developing a Switch title following their November project completion. Development kit costs of $500 appeared reasonable, and adapting their Fire engine to the platform seemed feasible.
-
-The team planned to organize a game jam to evaluate Switch development possibilities before committing to a full indie title.
-
-## Engagement
-
-The post concluded with an invitation for readers to share their Nintendo Switch impressions or suggest game concepts for potential development.
+Keep in touch and tell us what you like about the Nintendo Switch, or what gave we should build on it: Get in contact

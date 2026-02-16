@@ -7,8 +7,16 @@ tags: ["business", "news"]
 featuredImage: "/blog/_featured/business.png"
 ---
 
-Jagaco has officially registered as a company. After months of preparation, "**Jagaco BV**" is now a legally established business entity.
+Hi All,
 
-With this milestone achieved, the team is channeling their newfound momentum into developing their first internal release of *Ungoverned Lands*. The project is progressing well, and the studio promises exciting updates ahead.
+The last few months we've been working on starting of Jagaco as a business. For a while there was still one thing missing, the actual registration of the company. So without further ado…
 
-To celebrate, Jagaco is sharing the inaugural *Ungoverned Lands* wallpaper with their community. Fans interested in following the studio's progress are encouraged to connect via Twitter and Facebook for regular development announcements.
+We are happy to announce that as of this week "**Jagaco BV**" is a real company, finally we exist!
+
+Now we are putting our new found feeling of purpose to work and are currently working hard on our first internal release of [Ungoverned Lands](http://jagaco.com/projects/ungoverned-lands/ "Ungoverned Lands").
+
+We're making some real progress, so expect some cool developments updates soon!
+
+For now we'll spread the joy by presenting you with our very first Ungoverned Lands wallpaper, enjoy!
+
+If you want to receive further updates be sure to follow us on [Twitter](https://twitter.com/JagacoGames) and [Facebook](https://www.facebook.com/JagacoGames).

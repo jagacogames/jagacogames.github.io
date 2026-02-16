@@ -7,13 +7,10 @@ tags: ["Ungoverned Lands", "beta-test", "news"]
 featuredImage: "/blog/_featured/beta-test-sign-up-ungoverned-lands-closed.png"
 ---
 
-The registration period has concluded, and the team reports receiving numerous participant applications. The testing phase will be structured into three sequential tiers, enabling the developers to progressively increase player loads for comprehensive stress testing.
+The signup period is now closed and we are happy to tell you that we have many participants! We will divide the test in three tiers. This way we can stress-test the game with an increasing number of players every time.
 
-Currently, the game has achieved beta-readiness. However, development continues on critical infrastructure components, including:
+At the moment the game is beta-ready, but we are still working on the systems that will allow you to post comments, bugs, and a server to which the game will send debug-information while you play, which will allow us to fix issues much more easily.
 
-- A commenting and bug-reporting system
-- A server framework for collecting debug information during gameplay
+When those systems are ready, the first tier will get their invites.
 
-These systems will facilitate faster identification and resolution of issues. Once completed, invitations will be distributed to the initial tier of testers.
-
-The developers note that depending on how the first testing phase progresses, "there might be a second beta round," encouraging interested parties to monitor the site for future announcements and opportunities to participate.
+Depending on the outcome of these tests there might be a second beta round, so keep checking back for progress and other possibilities.

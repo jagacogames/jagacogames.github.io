@@ -7,32 +7,46 @@ tags: ["Alpha", "security", "applied-games"]
 featuredImage: "/blog/_featured/hello-world-welcome-alpha.png"
 ---
 
-## Alpha, a brief History
+We have been working on this project for a while now but we never formerly introduced your guys to 'Alpha', so here goes.
 
-This initiative emerged from collaboration between Jagaco and Refreshing Security, an information security consulting firm. Beginning in late 2014, the partners explored how applied games could build cybersecurity awareness.
+## Alpha, a brief history
 
-"Alpha Awareness' goal is to make the world a better and more secure place, which we do by providing (among other things) training sessions and workshops"
+This project was born from the cooperation between Jagaco and Refreshing Security. Refreshing Security is consulting and training firm specialized in Information security. We started discussing the possibilities of utilizing applied games to create awareness about the importance of Information Security late 2014.
+
+From these meetings 'Alpha Awareness' was born. Alpha Awareness' goal is to make the world a better and more secure place, which we do by providing (among other things) training sessions and workshops which revolve around the Alpha game that was created by us.
 
 ## What is it?
 
-Alpha functions as a real-time simulation where players assume the role of a Chief Information Security Officer. Players navigate professional work environments, addressing information security challenges while receiving performance feedback.
+Alpha is a real-time simulation game set in various professional work environments. In this world players take on the role of a CISO (Chief Information Security Officer) to help out the people in the world with information security related questions and/or issues, as well as looking closely at the world to make sure nothing is out of order. After handling these events, either properly or poorly, the provides feedback on the players performance.
 
 ## Customizable
 
-The game environment adapts to various organizational contexts. This customization enables players to encounter security scenarios relevant to their specific workplace, making the experience more relatable and impactful.
+While facing these Information Security challenges, we aim to provide our customers a fully customized experience to give them a game session that best fits their daily reality. For people playing the game to get the most out of it, it is important to create an environment that is relatable and which allows us to confront them with Information Security issues that they might run into during their daily work.
 
 ## Scenario System
 
-The platform features a flexible scenario framework allowing creation of security-focused mini-quests. These range from simple tasks like ensuring unattended computers are locked to complex scenarios involving remote employee network access. The system scales difficulty based on player expertise.
+Apart from the various environments, the game system we created comes with a highly flexible 'Scenario system'. This system allows us to create new scenarios (or small quests if you will) in the world that test the players knowledge of the Information security subjects relevant to them.
+
+These scenario's usually consist of short (or very complex) conversations with people in the game world who request your assistance with issues they run into, as well as security issues unfolding before your eyes which require the players guidance or timely intervention.
+
+These Scenario's may vary from an unmanned pc not being locked to helping a remote employee to safely gain access to the company network. Due to the flexibility provided by the scenario system we are able to fine-tune the technical complexity of the scenarios based on the person playing the game. Making it both challenging and relevant for anyone from secretary to CTO.
 
 ## Reporting
 
-The underlying system tracks player decisions and generates personalized performance reports. Organizations can access aggregated data to identify knowledge gaps and monitor awareness program effectiveness across employee groups.
+How you handle these various issues gets measures by the underlying system which provides personalized reports on the subjects that require more attention. Apart from these personal reports, the system also allows for aggregated reporting that allows Alpha Awareness together with employers to create Information Security Awareness programs that can pin-point the subjects that require attention within their organization.
 
-## What's Next
+Within these programs the Alpha game can be utilized to measure the progress of specific employees or groups. This in turn allows companies to modify their awareness program 'on-the-fly' based on the progress being made.
 
-Planned enhancements include:
-- New platform support for mobile and remote access
-- User-friendly scenario creation tools
-- Expanded environments
-- Potential applications beyond information security
+## It's only just begun
+
+So now what? We are continuously working to improve the flexibility, add new features as well as environments to cater to an ever broader pool of customers.
+
+Next up:
+
+- New platforms (play anytime/anywhere)
+- More user-friendly scenario editing (Bring Your Own Scenario)
+- Much more…
+
+We're also looking into using this environment for more than just Information security training. We're actively looking for new collaborations to this end, so if you have any suggestions you are more than welcome to drop us a line.
+
+We'll be posting some more updates about Alpha in the coming months, so keep posted for development updates (as they happen :)).

@@ -19,7 +19,7 @@ There are a total of 10 different weapons to buy. Cheaper weapons yield less scr
 
 **Price = BaseCost × Multiplier ^ Count**
 
-The *Multiplier* in Clickernauts is about 1.13, in most clicker games the value ranges from 1.07 to 1.15. The higher the number, the faster the price will rise. Some games give different values to each of the different automated resource collectors.
+The *Multiplier* in Clickernauts is about 1.13, in most clicker games the value ranges from 1.07 to 1.15 The higher the number, the faster the price will rise. Some games give different values to each of the different automated resource collectors. Here is an example some of the prices for the laser artillery in Clickernauts, the player will always start with a single laser artillery. This is because the player isn't able to create scrap on their own.
 
 ## What to buy?
 
@@ -33,4 +33,4 @@ Since we know the amount of scrap we get per second, how much a weapon costs and
 
 Because we are working with exponential numbers, eventually the amounts of scrap we reach becomes extremely big. So big even, that a normal 32bit integer won't cut it (that will only go up to a max of 4,294,967,295 unsigned). Since the game can be played until infinity (in theory, in practice this will be a lot harder) there shouldn't be any limit on the amount of scrap you can get. So the amount of scrap, prices of weapons and yield of weapons are stored in a Big Integer. The big integer scales accordingly to the amount of memory needed. So it's perfect for use in our game!
 
-While the currently used prices, curves, etc. will probably all change, a good foundation is laid for Clickernauts so that we can build upon it in the future. Clickernauts (and all clicker games really) are all about the ever increasing amount of *things*, in our case scrap, you get.
+While the currently used prices, curves, etc. will probably all change, a good foundation is laid for Clickernauts so that we can build upon it in the future. Clickernauts (and all clicker games really) are all about "the ever increasing amount of *things*, in our case scrap, you get." Some great articles have been written about on this topic.

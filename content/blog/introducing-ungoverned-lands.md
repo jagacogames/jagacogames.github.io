@@ -11,8 +11,6 @@ Hello everyone!
 
 It's time to introduce our main project which we've been working on for a while now. We are very excited (and a bit nervous) getting this news out, but our baby cannot grow properly if we don't set it free at some point, right?
 
-## About the Game
-
 **Ungoverned Lands** is a digitally hand painted 2D isometric Real-time strategy game for mobile platforms (initially).
 
 Taking place in distant lands where a new powerful resource has erupted from the grounds. These riches attract governing powers from all over, who would kill for the potential it holds.

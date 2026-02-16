@@ -258,7 +258,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                   <img
                     src={imageSrc}
                     alt={alt || ''}
-                    className="rounded-lg my-6 max-w-full h-auto"
+                    className="rounded-lg my-6 max-w-full h-auto mx-auto block"
                     {...props}
                   />
                 );

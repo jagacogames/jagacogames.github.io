@@ -7,98 +7,18 @@ tags: ["hardware", "arcade", "DIY"]
 featuredImage: "/blog/_featured/building-an-arcade-cabinet-part-2.jpg"
 ---
 
-This blog post describes the physical construction phase of an arcade cabinet project. The author explains the materials, cutting, and assembly process completed by May 17th.
+A few weeks have passed since the last blog post about the arcade cabinet. We managed to finish it just in time (May 17th)! In this post I'll talk about the process of sawing and assembling the cabinet itself. And in a third (and last) post I will cover the last things we did to finish the arcade cabinet!
 
-![Cabinet pieces laid out](../../public/blog/building-an-arcade-cabinet-part-2/IMG_20170430_175022054.jpg)
+## Materials
 
-## Materials Used
+We made the arcade cabinet out of MDF which is easy to saw, and cheap to buy. We have 18mm thick MDF for the sides and bottom parts. 9mm thick MDF for most of the other panels (back sides, speaker plate, etc) and 4mm for the control panel. We used pinewood for the beams inside the cabinet. To put everything together we used lots of wood glue and some screws, sized accordingly to the thickness of the wood. We used 4mm acrylic sheets in front of the monitor and the marquee.
 
-The team selected **MDF which is easy to saw, and cheap to buy** in various thicknesses:
-- **18mm** for structural parts
-- **9mm** for panels
-- **4mm** for the control panel
+## Sawing & drilling
 
-Additional materials included:
-- Pinewood beams internally
-- Wood glue and screws for assembly
-- Acrylic sheets for protective covering
-- T-molding for edge finishing
+We used a circular saw for cutting the side panels. Since these are the only panels shaped differently. Sawing the beams and other MDF parts wasn't an issue. Problems came with sawing the acrylic sheets. Turns out, drilling and cutting acrylic sheets isn't that easy. If you go a little too fast the sheet shatters and you can start all over again! The acrylic does look very nice and was absolutely worth it.
 
-![Cutting materials](../../public/blog/building-an-arcade-cabinet-part-2/saw.png)
+## Assembly
 
-## Construction Challenges
+Now for the tricky part, putting everything together and hoping we didn't make an error somewhere in the sizes. Luckily there where no errors! Everything fell in place perfectly! We used a milling cutter for the small grooves in the side panels so we are able to place some T-molding on the sides. For easy transport we can detach the top part of the cabinet, so we had to make sure everything aligns perfectly. The small fan vents in the woods is also made using the milling cutter.
 
-The most significant difficulty involved working with acrylic:
-
-**"Drilling and cutting acrylic sheets isn't that easy. If you go a little too fast the sheet shatters."**
-
-The team used a milling cutter for grooves and ventilation details. This required patience and precision—rush it and you destroy expensive materials.
-
-![Working with acrylic](../../public/blog/building-an-arcade-cabinet-part-2/IMG_20170506_224648466.jpg)
-
-## Assembly Process
-
-Assembly proceeded smoothly with no measurement errors. The cabinet was designed with a detachable top section for transport, making it practical for events and demonstrations.
-
-![Assembly in progress](../../public/blog/building-an-arcade-cabinet-part-2/WhatsApp-Image-2017-05-20-at-18.25.57.jpeg)
-
-![Side panel assembly](../../public/blog/building-an-arcade-cabinet-part-2/WhatsApp-Image-2017-05-20-at-18.25.48.jpeg)
-
-### Key Assembly Steps
-
-1. **Cut all pieces** according to precise measurements
-2. **Dry fit** everything before gluing
-3. **Internal bracing** with pinewood beams
-4. **Glue and screw** structural elements
-5. **Add T-molding** to side panels for aesthetic finishing
-6. **Install acrylic** protective covers
-
-![Control panel detail](../../public/blog/building-an-arcade-cabinet-part-2/WhatsApp-Image-2017-05-20-at-18.25.54.jpeg)
-
-![Internal structure](../../public/blog/building-an-arcade-cabinet-part-2/IMG_20170504_125010294-1.jpg)
-
-## Design Decisions
-
-### Detachable Top
-
-The cabinet features a **detachable top section** for easy transport. This was crucial for a team that wanted to bring their arcade cabinet to events and showcases.
-
-### Material Choices
-
-MDF proved ideal for:
-- Easy cutting and shaping
-- Affordable price point
-- Smooth finish for painting
-- Structural rigidity
-
-![Detailed view](../../public/blog/building-an-arcade-cabinet-part-2/WhatsApp-Image-2017-05-20-at-19.02.03.jpeg)
-
-![Corner detail](../../public/blog/building-an-arcade-cabinet-part-2/IMG_20170430_162744960.jpg)
-
-## Lessons Learned
-
-1. **Acrylic is unforgiving** - Work slowly and carefully
-2. **Dry fit everything** - Measure twice, cut once isn't just a saying
-3. **Plan for transport** - Detachable sections save headaches later
-4. **Use the right tools** - A milling cutter makes cleaner cuts than improvising
-
-![Progress shot](../../public/blog/building-an-arcade-cabinet-part-2/IMG_20170506_213103932.jpg)
-
-![T-molding application](../../public/blog/building-an-arcade-cabinet-part-2/WhatsApp-Image-2017-05-20-at-14.12.44.jpeg)
-
-## The Result
-
-![Completed cabinet](../../public/blog/building-an-arcade-cabinet-part-2/IMG_20170520_184013759.jpg)
-
-By May 17th, the physical construction was complete. The cabinet stood proud—a testament to careful planning, precision cutting, and patient assembly.
-
-## What's Next?
-
-With the physical cabinet complete, the next phases include:
-- Electronics installation
-- Monitor mounting
-- Control panel wiring
-- Software configuration
-- Art and branding
-
-Building an arcade cabinet is a journey of passion and precision. Every cut, every joint, every detail matters. But when it's done, you have something truly special—a physical manifestation of gaming history that you built with your own hands.
+In the next post I'll show the the electronics, painting process and stickering. I've posted some more pictures in the gallery below. If you are intrested in making your own arcade, or have any questions, don't hesitate to leave a comment!
