@@ -1,13 +1,14 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 export default function HeroCarousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
-    { title: 'BLOKJE OM', color: '#4A90E2', image: '/images/hero/blokje-om.png', subtitle: 'TRAFFIC TRAINING GAME' },
-    { title: 'ALPHA', color: '#E91E63', image: '/images/hero/alpha.png', subtitle: 'SECURITY AWARENESS SIMULATION' },
-    { title: 'UNGOVERNED LANDS', color: '#7FBA00', image: '/images/hero/ungoverned-lands.png', subtitle: 'REAL-TIME STRATEGY' },
+    { title: 'BLOKJE OM', color: '#4A90E2', image: '/images/hero/blokje-om.webp', subtitle: 'TRAFFIC TRAINING GAME' },
+    { title: 'ALPHA', color: '#E91E63', image: '/images/hero/alpha.webp', subtitle: 'SECURITY AWARENESS SIMULATION' },
+    { title: 'UNGOVERNED LANDS', color: '#7FBA00', image: '/images/hero/ungoverned-lands.webp', subtitle: 'REAL-TIME STRATEGY' },
   ];
 
   useEffect(() => {
@@ -26,13 +27,17 @@ export default function HeroCarousel() {
           className={`absolute inset-0 transition-opacity duration-1000 ${
             currentSlide === index ? 'opacity-100' : 'opacity-0'
           }`}
-          style={{
-            backgroundImage: `url('${slide.image}')`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-          }}
-        />
+        >
+          <Image
+            src={slide.image}
+            alt={`${slide.title} - ${slide.subtitle}`}
+            fill
+            priority={index === 0}
+            sizes="100vw"
+            quality={85}
+            className="object-cover"
+          />
+        </div>
       ))}
 
       {/* Bottom Overlay Bar - Dark gradient for better text contrast */}

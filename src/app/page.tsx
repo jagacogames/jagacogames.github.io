@@ -43,6 +43,8 @@ export default function Home() {
                   alt="Jagaco workspace desk with computer"
                   width={256}
                   height={512}
+                  loading="lazy"
+                  sizes="256px"
                   className="object-contain"
                   style={{
                     msInterpolationMode: 'nearest-neighbor',
@@ -73,7 +75,7 @@ export default function Home() {
           <div className="text-center">
             <Link href="/games">
               <button className="px-8 py-3 bg-[#E91E63] hover:bg-[#C2185B] text-white font-bold rounded-full uppercase transition-colors shadow-lg">
-                SEE MORE
+                MORE GAMES
               </button>
             </Link>
           </div>
@@ -99,10 +101,12 @@ export default function Home() {
                   <div className="absolute inset-0 bg-gradient-to-t from-orange-500 via-orange-400 to-yellow-300 rounded-full blur-xl opacity-75"></div>
                   <div className="absolute inset-0 flex items-center justify-center">
                     <Image
-                      src="/images/tech/fire-engine-logo.png"
+                      src="/images/tech/fire-engine-logo.webp"
                       alt="Fire Engine logo"
                       width={96}
                       height={96}
+                      loading="lazy"
+                      sizes="96px"
                       className="object-contain"
                     />
                   </div>
@@ -120,10 +124,12 @@ export default function Home() {
                   <div className="absolute inset-0 bg-gradient-to-t from-red-500 via-orange-400 to-yellow-300 rounded-full blur-xl opacity-75"></div>
                   <div className="absolute inset-0 flex items-center justify-center">
                     <Image
-                      src="/images/tech/matchbox-editor-logo.png"
+                      src="/images/tech/matchbox-editor-logo.webp"
                       alt="Matchbox Editor logo"
                       width={96}
                       height={96}
+                      loading="lazy"
+                      sizes="96px"
                       className="object-contain"
                     />
                   </div>
@@ -162,7 +168,7 @@ export default function Home() {
           <div className="text-center">
             <Link href="/blog">
               <button className="px-8 py-3 bg-[#E91E63] hover:bg-[#C2185B] text-white font-bold rounded-full uppercase transition-colors shadow-lg">
-                SEE MORE
+                MORE BLOG POSTS
               </button>
             </Link>
           </div>
@@ -188,6 +194,8 @@ export default function Home() {
                   alt="Vincent Broeren"
                   width={128}
                   height={128}
+                  loading="lazy"
+                  sizes="128px"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -203,6 +211,8 @@ export default function Home() {
                   alt="Remco Brilstra"
                   width={128}
                   height={128}
+                  loading="lazy"
+                  sizes="128px"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -218,6 +228,8 @@ export default function Home() {
                   alt="Wilco van Starreburg"
                   width={128}
                   height={128}
+                  loading="lazy"
+                  sizes="128px"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -233,6 +245,8 @@ export default function Home() {
                   alt="Mathijs Koning"
                   width={128}
                   height={128}
+                  loading="lazy"
+                  sizes="128px"
                   className="w-full h-full object-cover"
                 />
               </div>

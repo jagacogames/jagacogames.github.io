@@ -32,6 +32,7 @@ export default function BlogCard({ post }: BlogCardProps) {
             <img
               src={post.featuredImage}
               alt={post.title}
+              loading="lazy"
               className="w-full h-full object-cover"
             />
           </div>

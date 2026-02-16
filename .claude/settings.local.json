@@ -23,8 +23,9 @@
       "Bash(findstr:*)",
       "Bash(node:*)",
       "WebFetch(domain:web.archive.org)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(powershell -Command \"Get-ChildItem -Path public\\\\images -Recurse -Include *.png,*.jpg,*.jpeg | Select-Object Name, Length, FullName | Format-Table -AutoSize\")",
+      "Bash(powershell -Command:*)"
     ]
   }
 }
-

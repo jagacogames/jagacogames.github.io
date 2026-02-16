@@ -17,6 +17,8 @@ export default function GameCard({ game }: GameCardProps) {
               alt={game.title}
               width={400}
               height={225}
+              loading="lazy"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               className="object-contain w-full h-full p-4"
             />
           ) : (
