@@ -221,7 +221,7 @@ export default function Home() {
                 />
               </div>
               <h3 className="font-bold text-sm uppercase">MATHIJS KONING</h3>
-              <p className="text-gray-600 text-xs">AUDIO DUDE</p>
+              <p className="text-gray-600 text-xs">AUDIO ARTISAN</p>
             </div>
           </div>
         </div>
