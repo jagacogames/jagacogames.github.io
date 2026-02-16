@@ -7,8 +7,6 @@ tags: ["Blink VR", "tech", "game-design"]
 featuredImage: "/blog/_featured/traffic-simulation-in-blokje-om.png"
 ---
 
-# Traffic simulation in Blokje Om
-
 "Blokje Om" is a virtual traffic training game aimed at a younger audience. With "Blokje Om" children can train themselves to safely participate in traffic while in a wheelchair or mobility scooter. This means traffic should be realistic enough for youngsters to train in a fun and cartoony world, but with realistic traffic. How did we achieve this? This blog post will answer that question by giving insight in some of the sub-systems of the traffic simulator.
 
 ## Traffic manager

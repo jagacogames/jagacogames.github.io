@@ -7,8 +7,6 @@ tags: ["GDC", "business", "tech", "news"]
 featuredImage: "/blog/_featured/game-developers-conference-2015.png"
 ---
 
-# Game Developers Conference 2015
-
 ## Day 0 – Arrival
 
 After a week-long vacation in New York, the author returns to San Francisco after three years. Despite the hotel's poor conditions, they're excited to explore the city again. Their colleague Nick experiences the city's steep streets for the first time. At day's end, they collect GDC passes and explore the Moscone Center, marveling at the gathering of 26,000 game development professionals.

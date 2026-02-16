@@ -7,8 +7,6 @@ tags: ["Alpha", "security", "applied-games"]
 featuredImage: "/blog/_featured/hello-world-welcome-alpha.png"
 ---
 
-# Hello World, Welcome Alpha
-
 ## Alpha, a brief History
 
 This initiative emerged from collaboration between Jagaco and Refreshing Security, an information security consulting firm. Beginning in late 2014, the partners explored how applied games could build cybersecurity awareness.

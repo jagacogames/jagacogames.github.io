@@ -7,8 +7,6 @@ tags: ["news", "social-media"]
 featuredImage: "/blog/_featured/hello-social.png"
 ---
 
-# Hello Social!
-
 Jagaco Games is now accessible on both Facebook and Twitter!
 
 Since we're progressing so nicely, we want to start sharing our joy and wisdom with the world! What better way to do this than with these social platforms?

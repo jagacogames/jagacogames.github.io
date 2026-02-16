@@ -7,8 +7,6 @@ tags: ["Ungoverned Lands", "tech", "development"]
 featuredImage: "/blog/_featured/close-to-beta.png"
 ---
 
-# Close to beta, some thoughts of a programmer
-
 ## Why are the last steps so hard!?!
 
 You would think that at the end of a project (close to beta) the motivation skyrockets because you can see the light at the end of the tunnel. Unfortunately this is not true. The last steps are the hardest to take, let me explain our pain.

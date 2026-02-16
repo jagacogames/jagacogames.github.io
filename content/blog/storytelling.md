@@ -7,8 +7,6 @@ tags: ["Quinn's Quest", "writing", "art", "game-development"]
 featuredImage: "/blog/_featured/storytelling.png"
 ---
 
-# Storytelling
-
 This post discusses the creation of storytelling for an upcoming RPG game at Jagaco Games. The author emphasizes how having a story before game development helps programmers ask better questions about narrative context, not just mechanics.
 
 ## The Burden of an Untold Story

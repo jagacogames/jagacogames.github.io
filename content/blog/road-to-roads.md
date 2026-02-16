@@ -7,8 +7,6 @@ tags: ["art", "VR", "development"]
 featuredImage: "/blog/_featured/road-to-roads.png"
 ---
 
-# Road to Roads
-
 We have recently started a Virtual Reality project with "Sophia Kinder Revalidatie" (children rehabilitation). In collaboration with Sophia we're making a traffic simulation which aims to teach (temporarily) disabled children and teenagers to safely participate in traffic in their mobility scooter, wheelchairs or bicycles.
 
 The project consists of two main phases. Phase one consists of a short period in which we create a high fidelity working prototype. The second longer phase will add things like highways, traffic accidents you will have to safely navigate around and behaviors displayed by other traffic that sometimes occur in life.

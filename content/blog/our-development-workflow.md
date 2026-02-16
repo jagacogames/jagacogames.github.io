@@ -7,8 +7,6 @@ tags: ["development", "workflow", "tech"]
 featuredImage: "/blog/_featured/our-development-workflow.png"
 ---
 
-# Our Development Workflow
-
 As we want to deliver the best quality possible to our customers at the shortest possible timelines, we are always looking for ways to optimize and/or automate our workflow.
 
 We've made some great steps in the past and plan to progress even further in the future. To do that I feel we best start looking at where we are now. I'll do that by asking a very important question.

@@ -7,8 +7,6 @@ tags: ["news", "Nintendo", "Switch"]
 featuredImage: "/blog/_featured/the-nintendo-switch-released.png"
 ---
 
-# The Nintendo Switch Released
-
 Two of the three programmers at Jagaco Games acquired Nintendo Switch units with Zelda: Breath of the Wild, significantly impacting office productivity. The team established a workplace policy: "No playing on the Switch during working hours," though demonstrations of game discoveries received brief exceptions.
 
 Despite implementing this rule, late-night gaming sessions extending until 5 a.m. created fatigue challenges the following workday. However, the developers considered the experience worthwhile, praising the game's quality and Nintendo's execution.

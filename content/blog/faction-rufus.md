@@ -7,8 +7,6 @@ tags: ["Ungoverned Lands", "factions", "game-design"]
 featuredImage: "/blog/_featured/faction-rufus.png"
 ---
 
-# Faction: Rufus
-
 ## Overview
 
 Jagaco Games announces the red faction "Rufus" to complement the previously revealed blue faction "Caeruleus" in their game *Ungoverned Lands*. The developers emphasize that each faction receives unique visual treatment and distinct gameplay characteristics.

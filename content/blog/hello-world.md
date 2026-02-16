@@ -7,8 +7,6 @@ tags: ["news", "announcement"]
 featuredImage: "/blog/_featured/hello-world.png"
 ---
 
-# Hello World!
-
 Hi everyone,
 
 Today we are happy to celebrate the go live of the Jagaco Games website. Now I understand in order to get you to join our celebratory mood some introductions are in due, so here goes 🙂

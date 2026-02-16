@@ -7,8 +7,6 @@ tags: ["news", "team", "entertainment"]
 featuredImage: "/blog/_featured/warcraft-the-movie.png"
 ---
 
-# Warcraft the Movie
-
 After working hard for several weeks, the Jagaco team took time for relaxation and team bonding by attending the new Warcraft film. The crew traveled several hundred kilometers to experience the movie at the nation's largest cinema, finding the journey worthwhile.
 
 The programmers at Jagaco had been playing World of Warcraft since its inception, making the experience of "recognizing all the characters and locations in the movie was awesome." While certain narrative elements didn't fully align with the game's established lore, this didn't diminish the film's epic scope.

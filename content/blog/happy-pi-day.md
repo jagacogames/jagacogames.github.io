@@ -7,8 +7,6 @@ tags: ["technology", "programming", "mathematics"]
 featuredImage: "/blog/_featured/happy-pi-day.png"
 ---
 
-# Happy Pi Day!
-
 The post explores the mathematical constant Pi and its visualization through programming. The author discusses why Pi fascinates programmers and demonstrates how to create artistic representations of its digits.
 
 ![Pi Visualization](../../public/blog/happy-pi-day/180314-HappyPiDay.png)

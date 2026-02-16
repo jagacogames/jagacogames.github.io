@@ -7,8 +7,6 @@ tags: ["business", "news"]
 featuredImage: "/blog/_featured/business.png"
 ---
 
-# We're in Business!
-
 Jagaco has officially registered as a company. After months of preparation, "**Jagaco BV**" is now a legally established business entity.
 
 With this milestone achieved, the team is channeling their newfound momentum into developing their first internal release of *Ungoverned Lands*. The project is progressing well, and the studio promises exciting updates ahead.

@@ -7,8 +7,6 @@ tags: ["Quinn's Quest", "business", "game-development"]
 featuredImage: "/blog/_featured/a-quiet-blog-a-busy-world.png"
 ---
 
-# A Quiet Blog, A Busy World
-
 The team at Jagaco Games explains their extended silence by revealing the ambitious scope of their pixel art fantasy RPG in development.
 
 ## Key Message

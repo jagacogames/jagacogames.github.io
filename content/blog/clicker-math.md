@@ -7,8 +7,6 @@ tags: ["tech", "game-design", "math"]
 featuredImage: "/blog/_featured/clicker-math.png"
 ---
 
-# Clicker Math
-
 One of the many smaller projects we have is Clickernauts. Clickernauts is, as the name suggests, a clicker game. The objective is to collect as much scrap as you possibly can. To speed this up the player is able to buy weapons. These weapons destroy space ships, planets and even entire galaxies for their scrap.
 
 ## Investing

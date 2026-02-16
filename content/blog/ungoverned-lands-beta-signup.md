@@ -7,8 +7,6 @@ tags: ["Ungoverned Lands", "beta-test", "news"]
 featuredImage: "/blog/_featured/ungoverned-lands-beta-signup.png"
 ---
 
-# Ungoverned Lands Beta Signup
-
 Hi All,
 
 As the development of Ungoverned Lands is nearing its inevitable completion, we have decided to start our Beta test phase soon. So if there are brave souls among you, willing to venture into the unknown; willing to face the bugs ahead and report them back to us… Sign up!

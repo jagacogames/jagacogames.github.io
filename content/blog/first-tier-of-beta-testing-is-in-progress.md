@@ -7,8 +7,6 @@ tags: ["Ungoverned Lands", "beta-test", "testing"]
 featuredImage: "/blog/_featured/first-tier-of-beta-testing-is-in-progress.png"
 ---
 
-# First tier of Beta testing is in progress
-
 With the first tier of beta-testing for Ungoverned Lands well underway, (fortunately) no major issues have been found as of now. We have invited a few testers to our headquarters for the "over the shoulder tests", and we have been given many helpful comments and recommendations.
 
 Our testers have been asked to give their critical and honest opinion about Ungoverned Lands, and it is hugely gratifying to see that they're enjoying our game, even in its current state.

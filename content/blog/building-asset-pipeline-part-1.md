@@ -7,8 +7,6 @@ tags: ["tech", "tools", "development"]
 featuredImage: "/blog/_featured/building-asset-pipeline-part-1.png"
 ---
 
-# Building an Asset Pipeline (Part 1)
-
 ## What is it and why do I want one?
 
 An asset pipeline represents the workflow for transferring models, textures, and sounds from Digital Content Creators (DCCs) like Photoshop and 3DS Max into your game. During development, this process significantly impacts productivity.

@@ -7,8 +7,6 @@ tags: ["Quinn's Quest", "tech", "procedural-generation"]
 featuredImage: "/blog/_featured/procedural-dungeon-generation.png"
 ---
 
-# Procedural Dungeon Generation
-
 ## Procedural Dungeons
 
 For their Action-RPG game Quinn's Quest, the developers created procedurally generated dungeons containing explorable rooms where players can fight and gather loot. The dungeon features an entrance room (green), an exit room (red) positioned as far as possible from the entrance, and hidden rooms accessible through secret passages. Using seed-based generation allows for nearly infinite unique dungeon variations.

@@ -7,8 +7,6 @@ tags: ["Ungoverned Lands", "beta-test", "news"]
 featuredImage: "/blog/_featured/beta-test-sign-up-ungoverned-lands-closed.png"
 ---
 
-# Beta test sign-up Ungoverned Lands closed
-
 The registration period has concluded, and the team reports receiving numerous participant applications. The testing phase will be structured into three sequential tiers, enabling the developers to progressively increase player loads for comprehensive stress testing.
 
 Currently, the game has achieved beta-readiness. However, development continues on critical infrastructure components, including:

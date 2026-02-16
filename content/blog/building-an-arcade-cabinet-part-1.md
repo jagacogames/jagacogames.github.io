@@ -7,8 +7,6 @@ tags: ["Alpha", "arcade", "hardware"]
 featuredImage: "/blog/_featured/building-an-arcade-cabinet-part-1.jpg"
 ---
 
-# Building an Arcade Cabinet (Part 1)
-
 Building an arcade cabinet proved more challenging than anticipated. The team at Jagaco Games aimed to create a promotional tool for their game Alpha, planning to showcase it at events while enjoying classic arcade games themselves.
 
 ## Design Selection

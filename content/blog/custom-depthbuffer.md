@@ -7,8 +7,6 @@ tags: ["Alpha", "tech", "graphics"]
 featuredImage: "/blog/_featured/custom-depthbuffer.png"
 ---
 
-# Custom Depthbuffer
-
 ## Spritebatch
 
 The Spritebatch batches rendering of multiple sprites to improve performance. Drawing 100 individual sprites requires 100 draw-calls, whereas organizing them into five batches reduces this to just five draw-calls, significantly improving speed.

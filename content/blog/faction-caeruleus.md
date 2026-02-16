@@ -7,8 +7,6 @@ tags: ["Ungoverned Lands", "factions", "game-design"]
 featuredImage: "/blog/_featured/faction-caeruleus.png"
 ---
 
-# Faction: Caeruleus
-
 We are excited to begin revealing more of Ungoverned Lands starting with one of the playable factions. We are going to include multiple of them which will play a big role in the game, each with their own strengths and weaknesses but also unique looks and background.
 
 Our first faction goes by the name Caeruleus, highly organized with heavy rulership overseeing everything within their empire.

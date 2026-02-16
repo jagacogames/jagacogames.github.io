@@ -7,8 +7,6 @@ tags: ["Quinn's Quest", "technology", "game-development", "tools"]
 featuredImage: "/blog/_featured/the-temptation-of-building-the-perfect-editor.png"
 ---
 
-# The Temptation of Building the Perfect Editor
-
 Game development combines creativity, problem-solving, and engineering. Developers frequently encounter repetitive tasks that tempt them to build specialized tools. However, this allure carries a significant risk: excessive time spent on tool development at the expense of actual game creation.
 
 ![Conversation Editor](../../public/blog/the-temptation-of-building-the-perfect-editor/ConversationEditor2.png)

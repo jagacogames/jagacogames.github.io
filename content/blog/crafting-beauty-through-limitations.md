@@ -7,8 +7,6 @@ tags: ["Quinn's Quest", "art", "technology", "pixel-art"]
 featuredImage: "/blog/_featured/crafting-beauty-through-limitations.png"
 ---
 
-# Crafting Beauty Through Limitations
-
 Jagaco Games employs **indexed rendering** in their upcoming title—a technique that enforces a strict visual palette of 82 colors throughout all game assets, from characters to UI elements.
 
 ## What is Indexed Rendering?

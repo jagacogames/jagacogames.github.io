@@ -7,8 +7,6 @@ tags: ["Quinn's Quest", "game-design", "world-building", "art"]
 featuredImage: "/blog/_featured/a-living-world.png"
 ---
 
-# A Living World
-
 ## Why Our Game Is More Than Just Empty Space
 
 The studio aims to avoid the common pitfall of open-world games where expansive maps lack meaningful content. Every location, character, and quest receives intentional design to ensure players have reasons to explore and engage with the environment.

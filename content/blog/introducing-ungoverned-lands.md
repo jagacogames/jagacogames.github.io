@@ -7,8 +7,6 @@ tags: ["Ungoverned Lands", "news", "announcement"]
 featuredImage: "/blog/_featured/introducing-ungoverned-lands.png"
 ---
 
-# Introducing: Ungoverned Lands
-
 Hello everyone!
 
 It's time to introduce our main project which we've been working on for a while now. We are very excited (and a bit nervous) getting this news out, but our baby cannot grow properly if we don't set it free at some point, right?

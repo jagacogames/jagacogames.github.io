@@ -6,8 +6,6 @@ excerpt: "Examining the dual nature of generative AI in game development—highl
 tags: ["AI", "game-development", "technology", "Quinn's Quest"]
 ---
 
-# The Controversy of Using Generative AI in Game Development
-
 This blog post examines the dual nature of generative AI in game development—highlighting both opportunities and concerns.
 
 ## Advantages

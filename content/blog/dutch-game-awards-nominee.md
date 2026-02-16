@@ -7,8 +7,6 @@ tags: ["awards", "Blokje Om", "VR", "serious-games"]
 featuredImage: "/blog/_featured/dutch-game-awards-nominee.png"
 ---
 
-# Dutch Game Awards Nominee
-
 ![Dutch Game Awards Nominee Badge](../../public/blog/dutch-game-awards-nominee/badge_nominee_serious_game.png)
 
 Jagaco received a nomination for the Dutch Game Awards in the **"Best Serious Game"** category. The company expressed enthusiasm about this recognition of their work over the preceding years.

@@ -7,8 +7,6 @@ tags: ["tools", "editor", "development"]
 featuredImage: "/blog/_featured/rooms-in-our-editor.png"
 ---
 
-# Rooms in our Editor
-
 ## Overview
 
 The company transformed their single-purpose game into a comprehensive training platform, requiring substantial development effort. This expansion necessitated improvements to their level design tools.

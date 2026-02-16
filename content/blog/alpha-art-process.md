@@ -7,8 +7,6 @@ tags: ["Alpha", "art", "game-design"]
 featuredImage: "/blog/_featured/alpha-art-process.png"
 ---
 
-# Alpha's Art Process
-
 We've been discussing the technology behind Alpha extensively, but the visual development deserves equal attention. This post explores the artistic decisions and production methods that shaped Alpha's distinctive appearance.
 
 ## Perspective Selection

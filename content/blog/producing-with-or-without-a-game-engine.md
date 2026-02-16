@@ -7,8 +7,6 @@ tags: ["business", "tech", "development"]
 featuredImage: "/blog/_featured/producing-with-or-without-a-game-engine.png"
 ---
 
-# Producing with or without a Game Engine
-
 The decision between building a custom game engine or using an existing one carries significant consequences for game development, affecting the game itself, the development team, and the company's future.
 
 ## Staying Competitive

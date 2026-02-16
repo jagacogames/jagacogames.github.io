@@ -7,8 +7,6 @@ tags: ["business", "news", "office"]
 featuredImage: "/blog/_featured/our-own-office.png"
 ---
 
-# Our Own Office
-
 There comes a time when your hobby is getting out of hand…
 
 We are at a turning point in the existence of Jagaco. The rent of available offices in our home city is relatively low and we were thinking of giving the development of our game(s) a boost in production for some time now.

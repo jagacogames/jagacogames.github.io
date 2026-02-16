@@ -7,8 +7,6 @@ tags: ["hardware", "arcade", "DIY"]
 featuredImage: "/blog/_featured/building-an-arcade-cabinet-part-2.jpg"
 ---
 
-# Building an Arcade Cabinet (Part 2)
-
 This blog post describes the physical construction phase of an arcade cabinet project. The author explains the materials, cutting, and assembly process completed by May 17th.
 
 ![Cabinet pieces laid out](../../public/blog/building-an-arcade-cabinet-part-2/IMG_20170430_175022054.jpg)

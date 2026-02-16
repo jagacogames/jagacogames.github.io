@@ -7,8 +7,6 @@ tags: ["Quinn's Quest", "game-development", "level-design"]
 featuredImage: "/blog/_featured/town-update.png"
 ---
 
-# Town Update
-
 The development team shares progress on their open-world RPG project. The game draws inspiration from classic Gameboy Zelda titles, emphasizing "puzzles, combat with loads of different enemy types" alongside a strong narrative component featuring gathering and crafting mechanics.
 
 ## The Protagonist's Home

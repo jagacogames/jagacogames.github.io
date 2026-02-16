@@ -7,8 +7,6 @@ tags: ["news", "office", "team"]
 featuredImage: "/blog/_featured/inside-the-office.jpg"
 ---
 
-# Inside the Office
-
 We have an office now! You might have already seen it on Facebook, but we do!
 
 We stole some desks from the floor above us, took them apart and reassembled them in our space. We donated our old monitors and chairs to the company, and we bought some candles and heaps of noodles. We. Are. Set!

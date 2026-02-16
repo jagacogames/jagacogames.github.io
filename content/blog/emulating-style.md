@@ -7,8 +7,6 @@ tags: ["art", "Ungoverned Lands", "development"]
 featuredImage: "/blog/_featured/emulating-style.png"
 ---
 
-# Emulating Style
-
 One of the hardest things as an artist is to emulate someone else's style. To the author, it is also one of the more rewarding things to do.
 
 ## The Challenge

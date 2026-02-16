@@ -6,8 +6,6 @@ excerpt: "Development lessons from our new RPG project—best practices for indi
 tags: ["technology", "game-development", "workflow"]
 ---
 
-# How to Workflow
-
 Jagaco Games shares development lessons from their new RPG project, highlighting best practices for indie game development.
 
 ## 1. Work in Demos (Incremental)

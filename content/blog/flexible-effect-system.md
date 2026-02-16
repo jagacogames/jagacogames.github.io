@@ -7,8 +7,6 @@ tags: ["tech", "graphics", "shaders"]
 featuredImage: "/blog/_featured/flexible-effect-system.png"
 ---
 
-# Flexible shaders (or effects?)
-
 Our engine is utilized in a commercially released game (Alpha), but as a programmer I recognize areas where the codebase requires refinement. While stability remains solid, the shader implementation was largely hardcoded—an issue demanding attention.
 
 ## Different versions

@@ -7,8 +7,6 @@ tags: ["Ungoverned Lands", "beta-test", "news"]
 featuredImage: "/blog/_featured/beta-testing-started.png"
 ---
 
-# Beta testing Started
-
 **Some days are worth remembering, this is one of those days…**
 
 Today marks the start of our beta testing period of Ungoverned Lands. Over the last couple of weeks we have worked hard to crush the last known bugs, and now we are at the point where others may test the game.
