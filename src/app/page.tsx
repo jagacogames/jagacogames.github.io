@@ -37,8 +37,18 @@ export default function Home() {
             </div>
 
             <div className="flex justify-center lg:justify-end animate-scale-in stagger-2">
-              <div className="w-64 h-64 bg-gradient-to-br from-orange-400 to-orange-500 rounded-2xl flex items-center justify-center text-white text-lg font-bold">
-                [Desk Illustration]
+              <div className="relative flex items-center justify-center">
+                <Image
+                  src="/images/Desk00_W_Redchair_1x2.png"
+                  alt="Jagaco workspace desk with computer"
+                  width={256}
+                  height={512}
+                  className="object-contain"
+                  style={{
+                    msInterpolationMode: 'nearest-neighbor',
+                    imageRendering: 'pixelated'
+                  } as React.CSSProperties}
+                />
               </div>
             </div>
           </div>
@@ -217,23 +227,25 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Special Thanks Section */}
-      <section className="py-16 md:py-24 bg-white">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-8 uppercase">
-            SPECIAL THANKS
-          </h2>
-          <p className="text-gray-600 mb-4">
-            Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam.
-          </p>
-          <p className="text-gray-900 font-bold text-xl mb-8">
-            ARE WE MISSING ANYONE?
-          </p>
-          <p className="text-gray-600">
-            Feel like you should be part of this epic team? Although we don't have vacancies at the moment, we'd love to hear from you!
-          </p>
-        </div>
-      </section>
+      {/* Special Thanks Section disabled for now */}
+      {false && (
+        <section className="py-16 md:py-24 bg-white">
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-4xl md:text-5xl font-bold mb-8 uppercase">
+              SPECIAL THANKS
+            </h2>
+            <p className="text-gray-600 mb-4">
+              Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam.
+            </p>
+            <p className="text-gray-900 font-bold text-xl mb-8">
+              ARE WE MISSING ANYONE?
+            </p>
+            <p className="text-gray-600">
+              Feel like you should be part of this epic team? Although we don't have vacancies at the moment, we'd love to hear from you!
+            </p>
+          </div>
+        </section>
+      )}
     </div>
   );
 }

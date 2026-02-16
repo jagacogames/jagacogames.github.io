@@ -1,5 +1,30 @@
 import { getAllGames } from '@/lib/markdown';
 import GameCard from '@/components/GameCard';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Our Games',
+  description: 'Explore our collection of unique indie games. From intense action to relaxing exploration, we create diverse experiences for every type of player.',
+  openGraph: {
+    title: 'Our Games | Jagaco Games',
+    description: 'Explore our collection of unique indie games. From intense action to relaxing exploration, we create diverse experiences for every type of player.',
+    type: 'website',
+    images: [
+      {
+        url: '/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Jagaco Games - Our Games',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Our Games | Jagaco Games',
+    description: 'Explore our collection of unique indie games. From intense action to relaxing exploration, we create diverse experiences for every type of player.',
+    images: ['/images/og-image.png'],
+  },
+};
 
 export default function GamesPage() {
   const games = getAllGames();

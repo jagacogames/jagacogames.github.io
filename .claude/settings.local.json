@@ -18,7 +18,10 @@
       "Bash(npm run dev)",
       "Bash(npm run lint)",
       "Bash(test:*)",
-      "Bash(wc:*)"
+      "Bash(wc:*)",
+      "Bash(dir:*)",
+      "Bash(findstr:*)",
+      "Bash(node:*)"
     ]
   }
 }

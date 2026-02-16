@@ -4,12 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/generate-og-images.js",
     "build": "next build && npm run postbuild",
     "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@vercel/og": "^0.8.6",
+    "canvas": "^3.2.1",
     "gray-matter": "^4.0.3",
     "next": "16.1.6",
     "react": "19.2.3",

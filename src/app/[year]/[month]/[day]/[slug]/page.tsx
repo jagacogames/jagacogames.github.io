@@ -43,9 +43,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const month = String(date.getMonth() + 1).padStart(2, '0');
   const day = String(date.getDate()).padStart(2, '0');
   const postUrl = `${siteUrl}/${year}/${month}/${day}/${post.slug}`;
-  const imageUrl = post.featuredImage
-    ? `${siteUrl}${post.featuredImage}`
-    : `${siteUrl}/images/default-og.png`;
+  const ogImageUrl = `${siteUrl}/og/${post.slug}.png`;
 
   return {
     title: `${post.title} | Jagaco Studios`,
@@ -60,7 +58,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url: postUrl,
       images: [
         {
-          url: imageUrl,
+          url: ogImageUrl,
           width: 1200,
           height: 630,
           alt: post.title,
@@ -72,7 +70,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       card: 'summary_large_image',
       title: post.title,
       description: post.excerpt,
-      images: [imageUrl],
+      images: [ogImageUrl],
       creator: '@JagacoGames',
     },
     alternates: {

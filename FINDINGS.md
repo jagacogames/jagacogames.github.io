@@ -14,6 +14,10 @@
 - [x] Missing robots.txt (created in `/public/robots.txt`)
 - [x] Missing sitemap generation (configured with next-sitemap)
 - [x] Non-functional "Contact Us" button (removed from homepage)
+- [x] Games Pages Missing Metadata
+
+### Other Issues
+- [x] No custom 404 page (created branded 404 page at `src/app/not-found.tsx`)
 
 ---
 
@@ -28,30 +32,6 @@
 - `public/images/default-og.png` - Referenced in `src/app/[year]/[month]/[day]/[slug]/page.tsx:48`
 
 **Recommendation:** Create 1200x630px images for social media sharing.
-
-### 2. Games Pages Missing Metadata
-**Priority:** High
-**Impact:** Poor SEO for game pages
-
-**Files to Update:**
-- `src/app/games/page.tsx` - Add metadata export with title, description, OG tags
-- `src/app/games/[slug]/page.tsx` - Add dynamic metadata generation using game data
-
-**Example:**
-```typescript
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const game = getGameBySlug(params.slug);
-  return {
-    title: game.title,
-    description: game.description,
-    openGraph: {
-      title: game.title,
-      description: game.description,
-      images: [game.logo],
-    },
-  };
-}
-```
 
 ---
 
@@ -194,14 +174,6 @@ images: { unoptimized: true }
 }
 ```
 
-### 11. No Custom 404 Page
-**Priority:** Low
-**Impact:** Generic error experience
-
-**Issue:** Game detail pages use `notFound()` but no custom 404 exists.
-
-**Action:** Create `src/app/not-found.tsx` with branded 404 page.
-
 ---
 
 ## 🟢 LOW PRIORITY / IMPROVEMENTS
@@ -329,7 +301,6 @@ trailingSlash: true
 
 ### Phase 1: Critical Fixes (Do First)
 1. Create missing OG images (`og-image.png`, `default-og.png`)
-2. Add metadata to games pages
 3. Optimize large images (convert to WebP, compress)
 
 ### Phase 2: Content & Polish (Do Soon)
@@ -341,10 +312,9 @@ trailingSlash: true
 ### Phase 3: Quality Improvements (Do When Time Permits)
 8. Create `.env.example`
 9. Add error logging to catch blocks
-10. Create custom 404 page
-11. Fix accessibility issues (aria-hidden, color contrast, focus states)
-12. Add breadcrumb navigation
-13. Update BlogCard to use Next.js Image component
+10. Fix accessibility issues (aria-hidden, color contrast, focus states)
+11. Add breadcrumb navigation
+12. Update BlogCard to use Next.js Image component
 
 ---
 
