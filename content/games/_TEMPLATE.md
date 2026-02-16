@@ -5,6 +5,7 @@ genre: ["Genre1", "Genre2", "Genre3"]
 platforms: ["PC", "PlayStation", "Xbox", "Nintendo Switch", "Mac", "Steam Deck"]
 releaseDate: "2025-Q1"
 thumbnail: "/images/game-thumb.jpg"
+featuredImage: "/images/game-hero.jpg"
 screenshots:
   - "/images/game-screenshot-1.jpg"
   - "/images/game-screenshot-2.jpg"

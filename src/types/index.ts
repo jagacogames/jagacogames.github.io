@@ -9,6 +9,7 @@ export interface Game {
   releaseDate: string;
   thumbnail: string;
   screenshots: string[];
+  featuredImage?: string;
   storeLinks?: {
     steam?: string;
     itch?: string;
@@ -49,6 +50,7 @@ export interface GameMetadata {
   releaseDate: string;
   thumbnail: string;
   screenshots: string[];
+  featuredImage?: string;
   storeLinks?: {
     steam?: string;
     itch?: string;

@@ -86,10 +86,10 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             <div className="bg-[#FDB614] p-8 rounded-lg shadow-lg animate-slide-in-left">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 uppercase">
-                DEV PILLARS AND TOOLING
+                SOFTWARE AND TOOLING
               </h3>
               <p className="text-gray-800 text-sm leading-relaxed">
-                Aenean diam dolor, accumsan sed rutrum vel, dapibus et leo. Suspendisse est augue, suscipit sit amet libero sed, ornare consectetur diam.
+                We at Jagaco have been developing our own software and tooling for over a decade. This allows us to create games that are not only fun and engaging but also optimized for performance and accessibility across a wide range of platforms.
               </p>
             </div>
 
@@ -97,12 +97,20 @@ export default function Home() {
               <div className="inline-block mb-6">
                 <div className="w-24 h-32 mx-auto relative">
                   <div className="absolute inset-0 bg-gradient-to-t from-orange-500 via-orange-400 to-yellow-300 rounded-full blur-xl opacity-75"></div>
-                  <div className="absolute inset-0 flex items-center justify-center text-6xl">🔥</div>
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <Image
+                      src="/images/tech/fire-engine-logo.png"
+                      alt="Fire Engine logo"
+                      width={96}
+                      height={96}
+                      className="object-contain"
+                    />
+                  </div>
                 </div>
               </div>
-              <h4 className="text-xl font-bold mb-3">Code base</h4>
+              <h4 className="text-xl font-bold mb-3">Fire Engine</h4>
               <p className="text-gray-600 text-sm max-w-xs mx-auto">
-                Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+                Our in-house game engine, built from the ground up to support our unique blend of 2D and 3D games with pixel art aesthetics.
               </p>
             </div>
 
@@ -110,12 +118,20 @@ export default function Home() {
               <div className="inline-block mb-6">
                 <div className="w-24 h-32 mx-auto relative">
                   <div className="absolute inset-0 bg-gradient-to-t from-red-500 via-orange-400 to-yellow-300 rounded-full blur-xl opacity-75"></div>
-                  <div className="absolute inset-0 flex items-center justify-center text-6xl">🔥</div>
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <Image
+                      src="/images/tech/matchbox-editor-logo.png"
+                      alt="Matchbox Editor logo"
+                      width={96}
+                      height={96}
+                      className="object-contain"
+                    />
+                  </div>
                 </div>
               </div>
-              <h4 className="text-xl font-bold mb-3">Flexibility</h4>
+              <h4 className="text-xl font-bold mb-3">Matchbox Editor</h4>
               <p className="text-gray-600 text-sm max-w-xs mx-auto">
-                Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna.
+                Our in-house level editor, designed to streamline the creation of complex game environments and assets with ease and precision.
               </p>
             </div>
           </div>

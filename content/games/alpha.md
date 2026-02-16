@@ -5,6 +5,7 @@ genre: ["Educational", "Simulation", "Security Training"]
 platforms: ["PC", "Web"]
 releaseDate: "2022-02"
 thumbnail: "/images/games/alpha/logo.png"
+featuredImage: "/images/games/alpha/screenshot-1.png"
 screenshots:
   - "/images/games/alpha/screenshot-1.png"
   - "/images/games/alpha/screenshot-2.png"

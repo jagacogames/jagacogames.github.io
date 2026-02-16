@@ -68,12 +68,33 @@ export default async function GameDetailPage({ params }: PageProps) {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-br from-[#7FBA00] via-[#4A90E2] to-[#9C27B0] pt-32 pb-16 overflow-hidden">
-        {/* Decorative Elements */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-10 right-10 w-32 h-32 bg-white rounded-full animate-float" />
-          <div className="absolute bottom-20 left-20 w-24 h-24 bg-white rounded-full animate-float" style={{ animationDelay: '1s' }} />
-        </div>
+      <div className="relative pt-32 pb-16 overflow-hidden">
+        {/* Background Image */}
+        {game.featuredImage && (
+          <div className="absolute inset-0">
+            <Image
+              src={game.featuredImage}
+              alt={game.title}
+              fill
+              className="object-cover"
+              priority
+            />
+            {/* Overlay with blur and darken effect */}
+            <div className="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
+          </div>
+        )}
+
+        {/* Fallback gradient if no featured image */}
+        {!game.featuredImage && (
+          <>
+            <div className="absolute inset-0 bg-gradient-to-br from-[#7FBA00] via-[#4A90E2] to-[#9C27B0]"></div>
+            {/* Decorative Elements */}
+            <div className="absolute inset-0 opacity-10">
+              <div className="absolute top-10 right-10 w-32 h-32 bg-white rounded-full animate-float" />
+              <div className="absolute bottom-20 left-20 w-24 h-24 bg-white rounded-full animate-float" style={{ animationDelay: '1s' }} />
+            </div>
+          </>
+        )}
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <Link

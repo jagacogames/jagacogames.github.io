@@ -5,6 +5,7 @@ genre: ["Educational", "VR", "Simulation", "Training"]
 platforms: ["VR", "Oculus Rift", "HTC Vive"]
 releaseDate: "2017-07"
 thumbnail: "/images/games/blokje-om/logo.png"
+featuredImage: "/images/games/blokje-om/screenshot-2.png"
 screenshots:
   - "/images/games/blokje-om/screenshot-1.png"
   - "/images/games/blokje-om/screenshot-2.png"
