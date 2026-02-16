@@ -13,6 +13,7 @@ export interface Game {
     steam?: string;
     itch?: string;
     gog?: string;
+    web?: string;
   };
   features: string[];
 }
@@ -52,6 +53,7 @@ export interface GameMetadata {
     steam?: string;
     itch?: string;
     gog?: string;
+    web?: string;
   };
   features: string[];
 }

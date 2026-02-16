@@ -87,7 +87,7 @@ export function getAllGames(): GameMetadata[] {
         releaseDate: data.releaseDate as string,
         thumbnail: data.thumbnail as string,
         screenshots: (data.screenshots as string[]) || [],
-        storeLinks: data.storeLinks as { steam?: string; itch?: string; gog?: string } | undefined,
+        storeLinks: data.storeLinks as { steam?: string; itch?: string; gog?: string; web?: string } | undefined,
         features: (data.features as string[]) || [],
       };
     });
@@ -112,7 +112,7 @@ export function getGameBySlug(slug: string): Game | null {
       releaseDate: data.releaseDate as string,
       thumbnail: data.thumbnail as string,
       screenshots: (data.screenshots as string[]) || [],
-      storeLinks: data.storeLinks as { steam?: string; itch?: string; gog?: string } | undefined,
+      storeLinks: data.storeLinks as { steam?: string; itch?: string; gog?: string; web?: string } | undefined,
       features: (data.features as string[]) || [],
     };
   } catch {

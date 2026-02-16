@@ -219,6 +219,14 @@ export default async function GameDetailPage({ params }: PageProps) {
                         Get on GOG
                       </a>
                     )}
+                    {game.storeLinks.web && (
+                      <a
+                        href={game.storeLinks.web}
+                        className="block w-full py-3 px-4 bg-[#E91E63] hover:bg-[#C2185B] text-white font-bold rounded-lg text-center transition-all uppercase shadow-lg"
+                      >
+                        View on Web
+                      </a>
+                    )}
                   </div>
                 </>
               )}
