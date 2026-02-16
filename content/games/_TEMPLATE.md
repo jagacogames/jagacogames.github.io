@@ -21,7 +21,6 @@ features:
   - "Key feature 5"
 ---
 
-# Full Game Description
 
 This is the full description that will appear on the game's detail page.
 You can use full markdown formatting here.
@@ -41,3 +40,4 @@ Write as much detail as you want about your game. You can include:
 ## Another Section
 
 Feel free to organize the content with multiple sections and subheadings.
+

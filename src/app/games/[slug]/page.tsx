@@ -144,7 +144,23 @@ export default async function GameDetailPage({ params }: PageProps) {
             <section>
               <h2 className="text-3xl font-bold text-gray-900 mb-4 uppercase">About the Game</h2>
               <div className="prose prose-lg max-w-none text-gray-600">
-                <ReactMarkdown>{game.fullDescription}</ReactMarkdown>
+                <ReactMarkdown
+                  components={{
+                    h2: ({node, ...props}) => <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4" {...props} />,
+                    h3: ({node, ...props}) => <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3" {...props} />,
+                    h4: ({node, ...props}) => <h4 className="text-lg font-bold text-gray-900 mt-4 mb-2" {...props} />,
+                    p: ({node, ...props}) => <p className="mb-4 leading-relaxed" {...props} />,
+                    ul: ({node, ...props}) => <ul className="list-disc list-inside mb-4 space-y-2" {...props} />,
+                    ol: ({node, ...props}) => <ol className="list-decimal list-inside mb-4 space-y-2" {...props} />,
+                    li: ({node, ...props}) => <li className="ml-4" {...props} />,
+                    strong: ({node, ...props}) => <strong className="font-bold text-gray-900" {...props} />,
+                    em: ({node, ...props}) => <em className="italic" {...props} />,
+                    a: ({node, ...props}) => <a className="text-[#E91E63] hover:text-[#C2185B] underline" {...props} />,
+                    code: ({node, ...props}) => <code className="bg-gray-100 px-2 py-1 rounded text-sm" {...props} />,
+                  }}
+                >
+                  {game.fullDescription}
+                </ReactMarkdown>
               </div>
             </section>
 

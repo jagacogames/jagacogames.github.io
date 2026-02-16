@@ -19,8 +19,6 @@ features:
   - "Hand-painted isometric art style with vibrant aesthetics"
 ---
 
-# Ungoverned Lands - Mobile RTS Strategy
-
 Ungoverned Lands is a hand-painted 2D isometric real-time strategy game that brings classic RTS gameplay to mobile platforms. Built with Jagaco's custom Fire Engine and Matchbox Editor, the game combines beautiful hand-crafted visuals with fast-paced strategic gameplay.
 
 ## The Story of Essenite

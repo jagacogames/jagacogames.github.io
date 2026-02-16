@@ -23,7 +23,7 @@ export default function Home() {
                 WHAT IS JAGACO
               </h2>
               <p className="text-gray-800 leading-relaxed">
-                Proin facilibus tristique est et vulputate. Etiam lorem lorem, ultricies et semper sit amet. Etiam lorem lorem, ultricies et semper sit amet. Etiam lorem lorem, ultricies et semper sit.
+                We are a small indie game developer building entertainment and educational games that blend playful design with thoughtful storytelling.
               </p>
             </div>
 
@@ -32,7 +32,7 @@ export default function Home() {
                 OUR MISSION
               </h2>
               <p className="text-gray-800 leading-relaxed">
-                Proin facilibus tristique est et vulputate. Etiam lorem lorem, ultricies et semper sit amet. Etiam lorem lorem, ultricies et semper sit amet. Etiam lorem lorem, ultricies et semper sit.
+                To craft accessible experiences that entertain, teach, and inspire curiosity across all ages.
               </p>
             </div>
 
@@ -160,7 +160,7 @@ export default function Home() {
             WE ARE JAGACO
           </h2>
           <p className="text-center text-gray-600 mb-16 max-w-3xl mx-auto">
-            At Jagaco we work with a diverse team of developers and a small core team. More you'll find the folks who make it all happen.
+            At Jagaco we work with a small, passionate team of individuals. Meet the people that make it all happen.
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">

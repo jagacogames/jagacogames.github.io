@@ -15,8 +15,6 @@ features:
   - "Multiple upgrade tiers from lasers to Galaxy consumers"
 ---
 
-# Clickernauts - Click Your Way Through Space
-
 Clickernauts is an addictive incremental clicker game that takes you on a journey through space. Battle waves of aliens by upgrading your spaceship from simple lasers to powerful Galaxy consumers!
 
 ## Incremental Progression

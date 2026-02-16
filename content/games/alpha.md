@@ -19,8 +19,6 @@ features:
   - "Flexible difficulty adjusting to player expertise"
 ---
 
-# Alpha - Security Awareness Through Gaming
-
 Alpha is an educational security awareness game developed by Jagaco Games in partnership with Alpha Awareness. It's designed to teach information security concepts through interactive gameplay rather than traditional presentations.
 
 ## Play as a Chief Information Security Officer
@@ -55,4 +53,3 @@ Alpha is designed for employees across all organizational levels who need securi
 
 Developed in collaboration with Alpha Awareness, combining Jagaco's game development expertise with specialized security training knowledge.
 
-**Website:** [www.alpha-awareness.nl](https://www.alpha-awareness.nl)

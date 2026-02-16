@@ -18,8 +18,6 @@ features:
   - "GPS navigation and landmark recognition training"
 ---
 
-# Blokje Om - VR Traffic Training for Children
-
 Blokje Om is a groundbreaking virtual reality traffic training game designed to teach children how to safely navigate traffic while using wheelchairs or mobility scooters. Instead of learning on real streets with real dangers, children can practice in a safe, controlled virtual environment.
 
 ## Mission-Based Learning

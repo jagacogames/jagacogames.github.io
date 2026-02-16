@@ -6,8 +6,8 @@ export default function HeroCarousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
     { title: 'BLOKJE OM', color: '#4A90E2', image: '/images/hero/blokje-om.png', subtitle: 'TRAFFIC TRAINING GAME' },
-    { title: 'ALPHA', color: '#E91E63', image: '/images/hero/alpha.png', subtitle: 'SURVIVAL STRATEGY GAME' },
-    { title: 'UNGOVERNED LANDS', color: '#7FBA00', image: '/images/hero/ungoverned-lands.png', subtitle: 'OPEN WORLD ADVENTURE' },
+    { title: 'ALPHA', color: '#E91E63', image: '/images/hero/alpha.png', subtitle: 'SECURITY AWARENESS SIMULATION' },
+    { title: 'UNGOVERNED LANDS', color: '#7FBA00', image: '/images/hero/ungoverned-lands.png', subtitle: 'REAL-TIME STRATEGY' },
   ];
 
   useEffect(() => {

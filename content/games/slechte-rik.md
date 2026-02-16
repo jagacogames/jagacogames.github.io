@@ -7,16 +7,14 @@ releaseDate: "2015"
 thumbnail: "/images/games/slechte-rik/logo.png"
 screenshots:
   - "/images/games/slechte-rik/logo.png"
-storeLinks:
-  itch: "https://slechterik.jagaco.com"
+# storeLinks:
+#   itch: "https://slechterik.jagaco.com"
 features:
   - "Created during a Game Jam event"
   - "Halloween-themed gameplay and atmosphere"
   - "Browser-based for easy accessibility"
   - "Fast-paced casual action"
 ---
-
-# Slechte Rik - Stop the Darkness
 
 Slechte Rik (Bad Rik) is a Halloween-themed casual game created during a Game Jam event. Your mission: prevent Rik from turning the world dark forever!
 
@@ -31,8 +29,6 @@ As darkness threatens to consume the world, players must act quickly to stop Rik
 ## Play Now
 
 Slechte Rik is available to play directly in your web browser. No downloads or installations required!
-
-**Play the game:** [slechterik.jagaco.com](https://slechterik.jagaco.com)
 
 ## Perfect for Halloween
 
