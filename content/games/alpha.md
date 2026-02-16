@@ -11,7 +11,6 @@ screenshots:
   - "/images/games/alpha/screenshot-3.png"
   - "/images/games/alpha/screenshot-4.png"
 storeLinks:
-  steam: "https://www.alpha-awareness.nl"
 features:
   - "Real-time simulation of security threats in professional work environments"
   - "Customizable scenarios matching actual work environments"

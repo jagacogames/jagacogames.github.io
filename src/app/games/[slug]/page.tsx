@@ -191,34 +191,36 @@ export default async function GameDetailPage({ params }: PageProps) {
           {/* Sidebar */}
           <div className="lg:col-span-1">
             <div className="bg-[#E8E8E8] rounded-lg p-6 sticky top-24">
-              <h3 className="text-xl font-bold text-gray-900 mb-4 uppercase">Get the Game</h3>
               {game.storeLinks && (
-                <div className="space-y-3">
-                  {game.storeLinks.steam && (
-                    <a
-                      href={game.storeLinks.steam}
-                      className="block w-full py-3 px-4 bg-[#E91E63] hover:bg-[#C2185B] text-white font-bold rounded-lg text-center transition-all uppercase shadow-lg"
-                    >
-                      Get on Steam
-                    </a>
-                  )}
-                  {game.storeLinks.itch && (
-                    <a
-                      href={game.storeLinks.itch}
-                      className="block w-full py-3 px-4 bg-[#E91E63] hover:bg-[#C2185B] text-white font-bold rounded-lg text-center transition-all uppercase shadow-lg"
-                    >
-                      Get on Itch.io
-                    </a>
-                  )}
-                  {game.storeLinks.gog && (
-                    <a
-                      href={game.storeLinks.gog}
-                      className="block w-full py-3 px-4 bg-[#E91E63] hover:bg-[#C2185B] text-white font-bold rounded-lg text-center transition-all uppercase shadow-lg"
-                    >
-                      Get on GOG
-                    </a>
-                  )}
-                </div>
+                <>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4 uppercase">Get the Game</h3>
+                  <div className="space-y-3">
+                    {game.storeLinks.steam && (
+                      <a
+                        href={game.storeLinks.steam}
+                        className="block w-full py-3 px-4 bg-[#E91E63] hover:bg-[#C2185B] text-white font-bold rounded-lg text-center transition-all uppercase shadow-lg"
+                      >
+                        Get on Steam
+                      </a>
+                    )}
+                    {game.storeLinks.itch && (
+                      <a
+                        href={game.storeLinks.itch}
+                        className="block w-full py-3 px-4 bg-[#E91E63] hover:bg-[#C2185B] text-white font-bold rounded-lg text-center transition-all uppercase shadow-lg"
+                      >
+                        Get on Itch.io
+                      </a>
+                    )}
+                    {game.storeLinks.gog && (
+                      <a
+                        href={game.storeLinks.gog}
+                        className="block w-full py-3 px-4 bg-[#E91E63] hover:bg-[#C2185B] text-white font-bold rounded-lg text-center transition-all uppercase shadow-lg"
+                      >
+                        Get on GOG
+                      </a>
+                    )}
+                  </div>
+                </>
               )}
 
               <div className="mt-6 pt-6 border-t border-gray-300">

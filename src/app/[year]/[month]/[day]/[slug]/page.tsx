@@ -47,7 +47,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const ogImageUrl = `${siteUrl}/og/${post.slug}.png`;
 
   return {
-    title: `${post.title} | Jagaco Studios`,
+    title: `${post.title}`,
     description: post.excerpt,
     authors: [{ name: post.author }],
     openGraph: {
@@ -65,7 +65,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           alt: post.title,
         },
       ],
-      siteName: 'Jagaco Studios',
+      siteName: 'Jagaco Games',
     },
     twitter: {
       card: 'summary_large_image',
