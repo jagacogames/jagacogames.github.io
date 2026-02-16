@@ -57,16 +57,20 @@ export default function HeroCarousel() {
       </div>
 
       {/* Carousel Dots - Positioned at bottom center */}
-      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex gap-2 z-20">
+      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex gap-1 z-20">
         {slides.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentSlide(index)}
-            className={`w-2.5 h-2.5 rounded-full transition-all ${
-              currentSlide === index ? 'bg-white w-6' : 'bg-white/60'
-            }`}
+            className="p-3 group"
             aria-label={`Go to slide ${index + 1}`}
-          />
+          >
+            <span
+              className={`block w-2.5 h-2.5 rounded-full transition-all ${
+                currentSlide === index ? 'bg-white w-6' : 'bg-white/60'
+              }`}
+            />
+          </button>
         ))}
       </div>
 
