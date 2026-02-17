@@ -29,6 +29,7 @@ function getAllBlogPosts() {
         date: data.date,
         author: data.author,
         featuredImage: data.featuredImage,
+        tags: data.tags || [],
       };
     });
 }
@@ -89,19 +90,30 @@ async function generateOGImage(post) {
     ctx.fillRect(0, 0, width, height);
   }
 
-  // Load and draw logo
+  // Load and draw logo with company name
   try {
     const logo = await loadImage(LOGO_PATH);
-    const logoHeight = 80;
+    const logoHeight = 100;
     const logoWidth = (logo.width / logo.height) * logoHeight;
-    ctx.drawImage(logo, 60, 60, logoWidth, logoHeight);
+    const logoX = 60;
+    const logoY = 50;
+    ctx.drawImage(logo, logoX, logoY, logoWidth, logoHeight);
+
+    // Draw company name next to logo
+    ctx.font = 'bold 36px Arial, sans-serif';
+    ctx.fillStyle = 'white';
+    ctx.shadowColor = 'rgba(0, 0, 0, 0.8)';
+    ctx.shadowBlur = 8;
+    ctx.shadowOffsetX = 0;
+    ctx.shadowOffsetY = 2;
+    ctx.fillText('Jagaco Games', logoX + logoWidth + 20, logoY + (logoHeight / 2) + 12);
   } catch (error) {
     console.error(`Error loading logo for ${post.slug}:`, error.message);
   }
 
   // Draw title
-  const titleY = 300;
-  const fontSize = post.title.length > 50 ? 52 : 72;
+  const titleY = 280;
+  const fontSize = post.title.length > 50 ? 48 : 64;
   ctx.font = `bold ${fontSize}px Arial, sans-serif`;
   ctx.fillStyle = 'white';
   ctx.shadowColor = 'rgba(0, 0, 0, 0.8)';
@@ -111,13 +123,69 @@ async function generateOGImage(post) {
 
   const lines = wrapText(ctx, post.title, width - 120);
   const lineHeight = fontSize * 1.2;
-  const maxLines = 3;
+  const maxLines = 2;
   const displayLines = lines.slice(0, maxLines);
 
   displayLines.forEach((line, index) => {
     const y = titleY + (index * lineHeight);
     ctx.fillText(line, 60, y);
   });
+
+  // Calculate where tags should start (below title)
+  const tagsY = titleY + (displayLines.length * lineHeight) + 30;
+
+  // Draw tags as pills
+  if (post.tags && post.tags.length > 0) {
+    ctx.shadowColor = 'rgba(0, 0, 0, 0.6)';
+    ctx.shadowBlur = 8;
+    ctx.shadowOffsetX = 0;
+    ctx.shadowOffsetY = 2;
+
+    let tagX = 60;
+    const tagHeight = 40;
+    const tagPadding = 20;
+    const tagSpacing = 12;
+    const tagFontSize = 20;
+
+    ctx.font = `bold ${tagFontSize}px Arial, sans-serif`;
+
+    post.tags.forEach((tag, index) => {
+      const tagText = `#${tag}`;
+      const textWidth = ctx.measureText(tagText).width;
+      const tagWidth = textWidth + (tagPadding * 2);
+
+      // Draw tag background (rounded rectangle)
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.35)';
+      ctx.strokeStyle = 'rgba(255, 255, 255, 0.5)';
+      ctx.lineWidth = 2;
+
+      const radius = tagHeight / 2;
+      ctx.beginPath();
+      ctx.moveTo(tagX + radius, tagsY);
+      ctx.lineTo(tagX + tagWidth - radius, tagsY);
+      ctx.quadraticCurveTo(tagX + tagWidth, tagsY, tagX + tagWidth, tagsY + radius);
+      ctx.lineTo(tagX + tagWidth, tagsY + tagHeight - radius);
+      ctx.quadraticCurveTo(tagX + tagWidth, tagsY + tagHeight, tagX + tagWidth - radius, tagsY + tagHeight);
+      ctx.lineTo(tagX + radius, tagsY + tagHeight);
+      ctx.quadraticCurveTo(tagX, tagsY + tagHeight, tagX, tagsY + tagHeight - radius);
+      ctx.lineTo(tagX, tagsY + radius);
+      ctx.quadraticCurveTo(tagX, tagsY, tagX + radius, tagsY);
+      ctx.closePath();
+      ctx.fill();
+      ctx.stroke();
+
+      // Draw tag text
+      ctx.fillStyle = 'white';
+      ctx.fillText(tagText, tagX + tagPadding, tagsY + tagHeight / 2 + tagFontSize / 3);
+
+      tagX += tagWidth + tagSpacing;
+
+      // Wrap to next line if needed
+      if (tagX + 150 > width - 60 && index < post.tags.length - 1) {
+        tagX = 60;
+      }
+    });
+  }
 
   // Reset shadow for footer
   ctx.shadowColor = 'transparent';
