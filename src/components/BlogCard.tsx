@@ -38,10 +38,12 @@ export default function BlogCard({ post }: BlogCardProps) {
           </div>
         ) : (
           <div className="aspect-video bg-gradient-to-br from-gray-200 to-gray-300 relative overflow-hidden">
-            <div className="absolute inset-0 flex items-center justify-center text-gray-400">
-              <svg className="w-20 h-20" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zM13.96 12.29l-2.75 3.54-1.96-2.36L6.5 17h11l-3.54-4.71z"/>
-              </svg>
+            <div className="absolute inset-0 flex items-center justify-center p-12">
+              <img
+                src="/images/jagaco-logo.png"
+                alt="Jagaco Games"
+                className="w-full h-full object-contain grayscale opacity-40"
+              />
             </div>
           </div>
         )}
