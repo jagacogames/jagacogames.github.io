@@ -86,7 +86,7 @@ export default function EnginePage() {
               <div className="order-1 lg:order-2 flex justify-center">
                 <div className="bg-gradient-to-br from-orange-100 to-red-100 rounded-2xl p-12 shadow-xl">
                   <Image
-                    src="/images/tech/fire-engine-logo.png"
+                    src="/images/tech/FireEngineLogo.svg"
                     alt="Fire Engine Logo"
                     width={400}
                     height={400}
@@ -103,7 +103,7 @@ export default function EnginePage() {
               <div className="flex justify-center">
                 <div className="bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl p-12 shadow-xl">
                   <Image
-                    src="/images/tech/matchbox-editor-logo.png"
+                    src="/images/tech/MatchboxLogo.svg"
                     alt="Matchbox Editor Logo"
                     width={400}
                     height={400}
@@ -167,7 +167,7 @@ export default function EnginePage() {
           </section>
 
           {/* Philosophy Section */}
-          <section className="bg-gradient-to-br from-[#7FBA00] via-[#4A90E2] to-[#9C27B0] rounded-3xl p-12 md:p-16 text-white">
+          <section className="bg-gradient-to-br from-[#7FBA00] via-[#4A90E2] to-[#d01212] rounded-3xl p-12 md:p-16 text-white">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-4xl md:text-5xl font-bold mb-8 uppercase">
                 Our Development Philosophy
@@ -215,7 +215,7 @@ export default function EnginePage() {
               </div>
 
               <div className="bg-[#E8E8E8] rounded-xl p-8 text-center">
-                <div className="w-20 h-20 bg-[#9C27B0] rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className="w-20 h-20 bg-[#d01212] rounded-full flex items-center justify-center mx-auto mb-6">
                   <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>

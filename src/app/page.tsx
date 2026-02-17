@@ -101,7 +101,7 @@ export default function Home() {
                   <div className="absolute inset-0 bg-gradient-to-t from-orange-500 via-orange-400 to-yellow-300 rounded-full blur-xl opacity-75"></div>
                   <div className="absolute inset-0 flex items-center justify-center">
                     <Image
-                      src="/images/tech/fire-engine-logo.webp"
+                      src="/images/tech/FireEngineLogo.svg"
                       alt="Fire Engine logo"
                       width={96}
                       height={96}
@@ -124,7 +124,7 @@ export default function Home() {
                   <div className="absolute inset-0 bg-gradient-to-t from-red-500 via-orange-400 to-yellow-300 rounded-full blur-xl opacity-75"></div>
                   <div className="absolute inset-0 flex items-center justify-center">
                     <Image
-                      src="/images/tech/matchbox-editor-logo.webp"
+                      src="/images/tech/MatchboxLogo.svg"
                       alt="Matchbox Editor logo"
                       width={96}
                       height={96}
