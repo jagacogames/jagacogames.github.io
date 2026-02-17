@@ -4,13 +4,13 @@ description: "Hand-painted 2D isometric real-time strategy game where factions c
 genre: ["RTS", "Strategy", "Mobile", "Multiplayer"]
 platforms: ["Windows", "Windows Phone", "Android", "iOS"]
 releaseDate: "2014"
-thumbnail: "/images/games/ungoverned-lands/logo.png"
+thumbnail: "/images/games/ungoverned-lands/logo.webp"
 screenshots:
-  - "/images/games/ungoverned-lands/screenshot-1.png"
-  - "/images/games/ungoverned-lands/screenshot-2.png"
-  - "/images/games/ungoverned-lands/screenshot-3.png"
-  - "/images/games/ungoverned-lands/screenshot-4.png"
-  - "/images/games/ungoverned-lands/screenshot-5.png"
+  - "/images/games/ungoverned-lands/screenshot-1.webp"
+  - "/images/games/ungoverned-lands/screenshot-2.webp"
+  - "/images/games/ungoverned-lands/screenshot-3.webp"
+  - "/images/games/ungoverned-lands/screenshot-4.webp"
+  - "/images/games/ungoverned-lands/screenshot-5.webp"
 features:
   - "Fast-paced RTS mechanics optimized for mobile platforms"
   - "Unique factions with distinct visual styles and gameplay"

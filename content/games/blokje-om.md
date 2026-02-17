@@ -4,13 +4,13 @@ description: "Virtual reality traffic training game designed for children in whe
 genre: ["Educational", "VR", "Simulation", "Training"]
 platforms: ["VR", "Oculus Rift", "HTC Vive"]
 releaseDate: "2017-07"
-thumbnail: "/images/games/blokje-om/logo.png"
-featuredImage: "/images/games/blokje-om/screenshot-2.png"
+thumbnail: "/images/games/blokje-om/logo.webp"
+featuredImage: "/images/games/blokje-om/screenshot-2.webp"
 screenshots:
-  - "/images/games/blokje-om/screenshot-1.png"
-  - "/images/games/blokje-om/screenshot-2.png"
-  - "/images/games/blokje-om/screenshot-3.png"
-  - "/images/games/blokje-om/screenshot-4.png"
+  - "/images/games/blokje-om/screenshot-1.webp"
+  - "/images/games/blokje-om/screenshot-2.webp"
+  - "/images/games/blokje-om/screenshot-3.webp"
+  - "/images/games/blokje-om/screenshot-4.webp"
 features:
   - "Safe virtual environment for traffic training without real-world risks"
   - "Training missions through a realistic virtual city"

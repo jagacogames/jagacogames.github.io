@@ -30,7 +30,7 @@ async function convertToWebP(inputPath, outputPath, quality = 85) {
   }
 }
 
-async function processDirectory(dir) {
+async function processDirectory(dir, recursive = false) {
   const fullPath = path.join(process.cwd(), dir);
 
   if (!fs.existsSync(fullPath)) {
@@ -41,29 +41,40 @@ async function processDirectory(dir) {
   console.log(`📁 Processing: ${dir}`);
 
   const files = fs.readdirSync(fullPath);
-  const imageFiles = files.filter(file =>
-    /\.(png|jpg|jpeg)$/i.test(file) && !file.endsWith('.webp')
-  );
-
   let totalInput = 0;
   let totalOutput = 0;
   let converted = 0;
 
-  for (const file of imageFiles) {
-    const inputPath = path.join(fullPath, file);
-    const outputPath = path.join(fullPath, file.replace(/\.(png|jpg|jpeg)$/i, '.webp'));
+  for (const file of files) {
+    const filePath = path.join(fullPath, file);
+    const stat = fs.statSync(filePath);
 
-    // Skip if WebP already exists
-    if (fs.existsSync(outputPath)) {
-      console.log(`⊘ Skipping ${file} (WebP exists)\n`);
+    // If it's a directory and we're in recursive mode, process it
+    if (stat.isDirectory() && recursive) {
+      const subDirResult = await processDirectory(path.join(dir, file), true);
+      totalInput += subDirResult.totalInput;
+      totalOutput += subDirResult.totalOutput;
+      converted += subDirResult.count;
       continue;
     }
 
-    const result = await convertToWebP(inputPath, outputPath);
-    if (result) {
-      totalInput += result.inputSize;
-      totalOutput += result.outputSize;
-      converted++;
+    // Process image files
+    if (stat.isFile() && /\.(png|jpg|jpeg)$/i.test(file)) {
+      const inputPath = filePath;
+      const outputPath = path.join(fullPath, file.replace(/\.(png|jpg|jpeg)$/i, '.webp'));
+
+      // Skip if WebP already exists
+      if (fs.existsSync(outputPath)) {
+        console.log(`⊘ Skipping ${file} (WebP exists)\n`);
+        continue;
+      }
+
+      const result = await convertToWebP(inputPath, outputPath);
+      if (result) {
+        totalInput += result.inputSize;
+        totalOutput += result.outputSize;
+        converted++;
+      }
     }
   }
 
@@ -79,7 +90,9 @@ async function main() {
   let grandTotalCount = 0;
 
   for (const dir of directories) {
-    const { totalInput, totalOutput, count } = await processDirectory(dir);
+    // Enable recursive processing for games directory
+    const recursive = dir === 'public/images/games';
+    const { totalInput, totalOutput, count } = await processDirectory(dir, recursive);
     grandTotalInput += totalInput;
     grandTotalOutput += totalOutput;
     grandTotalCount += count;

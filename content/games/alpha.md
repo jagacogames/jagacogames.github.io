@@ -4,13 +4,13 @@ description: "An applied game that helps players understand and experience a bro
 genre: ["Educational", "Simulation", "Security Training"]
 platforms: ["PC", "Web"]
 releaseDate: "2022-02"
-thumbnail: "/images/games/alpha/logo.png"
-featuredImage: "/images/games/alpha/screenshot-1.png"
+thumbnail: "/images/games/alpha/logo.webp"
+featuredImage: "/images/games/alpha/screenshot-1.webp"
 screenshots:
-  - "/images/games/alpha/screenshot-1.png"
-  - "/images/games/alpha/screenshot-2.png"
-  - "/images/games/alpha/screenshot-3.png"
-  - "/images/games/alpha/screenshot-4.png"
+  - "/images/games/alpha/screenshot-1.webp"
+  - "/images/games/alpha/screenshot-2.webp"
+  - "/images/games/alpha/screenshot-3.webp"
+  - "/images/games/alpha/screenshot-4.webp"
 storeLinks:
 features:
   - "Real-time simulation of security threats in professional work environments"

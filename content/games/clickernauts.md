@@ -4,9 +4,9 @@ description: "Battle aliens in space by clicking to upgrade your spaceship with 
 genre: ["Clicker", "Idle", "Space", "Casual"]
 platforms: ["Web Browser"]
 releaseDate: "2015"
-thumbnail: "/images/games/clickernauts/logo.png"
+thumbnail: "/images/games/clickernauts/logo.webp"
 screenshots:
-  - "/images/games/clickernauts/logo.png"
+  - "/images/games/clickernauts/logo.webp"
 features:
   - "Addictive incremental clicker gameplay"
   - "Progressive spaceship upgrade system"

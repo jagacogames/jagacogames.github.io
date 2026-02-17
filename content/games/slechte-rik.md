@@ -4,9 +4,9 @@ description: "A spooky Halloween-themed casual game where you must prevent Rik f
 genre: ["Casual", "Action", "Halloween", "Game Jam"]
 platforms: ["Web Browser"]
 releaseDate: "2015"
-thumbnail: "/images/games/slechte-rik/logo.png"
+thumbnail: "/images/games/slechte-rik/logo.webp"
 screenshots:
-  - "/images/games/slechte-rik/logo.png"
+  - "/images/games/slechte-rik/logo.webp"
 # storeLinks:
 #   itch: "https://slechterik.jagaco.com"
 features:
