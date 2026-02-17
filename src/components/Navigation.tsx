@@ -21,8 +21,8 @@ export default function Navigation() {
                 className="object-contain"
               />
             </div>
-            <span className="text-[40px] font-bold text-white leading-none">
-              Jagaco
+            <span className="text-[40px] font-bold text-white leading-none font-[family-name:var(--font-typomoderno)]">
+              jagaco
             </span>
           </Link>
 

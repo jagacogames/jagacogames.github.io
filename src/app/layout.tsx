@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -8,6 +9,12 @@ const roboto = Roboto({
   subsets: ["latin"],
   weight: ["400", "500", "700", "900"],
   variable: "--font-roboto",
+});
+
+const typomoderno = localFont({
+  src: "../../public/fonts/Typomoderno bold.ttf",
+  variable: "--font-typomoderno",
+  weight: "700",
 });
 
 export const metadata: Metadata = {
@@ -68,7 +75,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} font-roboto antialiased bg-white text-gray-900 min-h-screen flex flex-col`}>
+      <body className={`${roboto.variable} ${typomoderno.variable} font-roboto antialiased bg-white text-gray-900 min-h-screen flex flex-col`}>
         <Navigation />
         <main className="flex-grow">
           {children}
