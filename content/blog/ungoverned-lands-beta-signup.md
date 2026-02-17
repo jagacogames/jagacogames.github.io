@@ -18,6 +18,6 @@ Not being among the first to play the game might upset some of you, but on the b
 
 We hope you want to help us out, and if you are interested, click the link below to sign up!
 
-[Sign-up for Beta](http://jagaco.com/projects/ungoverned-lands/beta-signup/)
+~~**Sign-up for Beta**~~ (Beta closed)
 
-[More info about Ungoverned Lands](http://jagaco.com/projects/ungoverned-lands/)
+[More info about Ungoverned Lands](/games/ungoverned-lands/)

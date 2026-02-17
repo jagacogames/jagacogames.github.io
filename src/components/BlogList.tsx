@@ -4,7 +4,7 @@ import { useState, useMemo } from 'react';
 import { BlogPostMetadata } from '@/types';
 import BlogCard from '@/components/BlogCard';
 
-const POSTS_PER_PAGE = 6;
+const POSTS_PER_PAGE = 9;
 
 interface BlogListProps {
   posts: BlogPostMetadata[];
