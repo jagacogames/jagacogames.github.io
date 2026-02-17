@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -9,14 +10,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Logo */}
           <div className="flex justify-center md:justify-start">
-            <div className="relative w-16 h-16">
+            <Link href="/" className="relative w-16 h-16 block">
               <Image
                 src="/images/jagaco-logo.png"
                 alt="Jagaco Logo"
                 fill
                 className="object-contain"
               />
-            </div>
+            </Link>
           </div>
 
           {/* Social Icons */}

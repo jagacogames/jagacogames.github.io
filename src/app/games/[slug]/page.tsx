@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { getGameBySlug, getAllGameSlugs } from '@/lib/markdown';
 import ReactMarkdown from 'react-markdown';
 import type { Metadata } from 'next';
+import ScreenshotGallery from '@/components/ScreenshotGallery';
 
 interface PageProps {
   params: Promise<{
@@ -206,22 +207,7 @@ export default async function GameDetailPage({ params }: PageProps) {
 
             <section>
               <h2 className="text-3xl font-bold text-gray-900 mb-6 uppercase">Screenshots</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {game.screenshots.map((screenshot, index) => (
-                  <div
-                    key={index}
-                    className="aspect-video bg-gradient-to-br from-gray-200 to-gray-300 rounded-lg border border-gray-200 overflow-hidden"
-                  >
-                    <Image
-                      src={screenshot}
-                      alt={`${game.title} screenshot ${index + 1}`}
-                      width={800}
-                      height={450}
-                      className="object-cover w-full h-full"
-                    />
-                  </div>
-                ))}
-              </div>
+              <ScreenshotGallery screenshots={game.screenshots} gameTitle={game.title} />
             </section>
           </div>
 

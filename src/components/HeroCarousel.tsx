@@ -62,7 +62,7 @@ export default function HeroCarousel() {
           <button
             key={index}
             onClick={() => setCurrentSlide(index)}
-            className="p-3 group"
+            className="p-3 group cursor-pointer"
             aria-label={`Go to slide ${index + 1}`}
           >
             <span
