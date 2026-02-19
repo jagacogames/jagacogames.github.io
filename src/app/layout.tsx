@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import { getWebSiteSchema, serializeStructuredData } from "@/lib/structuredData";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -73,8 +74,16 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const websiteSchema = getWebSiteSchema();
+
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: serializeStructuredData(websiteSchema) }}
+        />
+      </head>
       <body className={`${roboto.variable} ${typomoderno.variable} font-roboto antialiased bg-white text-gray-900 min-h-screen flex flex-col`}>
         <Navigation />
         <main className="flex-grow">

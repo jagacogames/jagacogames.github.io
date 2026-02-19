@@ -1,6 +1,7 @@
 import { getAllGames } from '@/lib/markdown';
 import GameCard from '@/components/GameCard';
 import type { Metadata } from 'next';
+import { getGameListSchema, serializeStructuredData } from '@/lib/structuredData';
 
 export const metadata: Metadata = {
   title: 'Our Games',
@@ -28,8 +29,15 @@ export const metadata: Metadata = {
 
 export default function GamesPage() {
   const games = getAllGames();
+  const gameListSchema = getGameListSchema(games);
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: serializeStructuredData(gameListSchema) }}
+      />
+
       {/* Hero Header */}
       <section className="relative bg-gradient-to-br from-[#7FBA00] via-[#4A90E2] to-[#9C27B0] pt-32 pb-20 overflow-hidden">
         {/* Decorative Elements */}

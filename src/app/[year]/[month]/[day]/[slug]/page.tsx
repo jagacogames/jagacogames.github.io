@@ -5,6 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { Metadata } from 'next';
 import { getBlogPostBySlug, getAllBlogPosts } from '@/lib/markdown';
+import { getArticleSchema, getBlogBreadcrumbSchema, serializeStructuredData } from '@/lib/structuredData';
 
 interface PageProps {
   params: Promise<{
@@ -89,6 +90,9 @@ export default async function BlogPostPage({ params }: PageProps) {
     notFound();
   }
 
+  const articleSchema = getArticleSchema(post);
+  const breadcrumbSchema = getBlogBreadcrumbSchema(post);
+
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
     return date.toLocaleDateString('en-US', {
@@ -100,6 +104,11 @@ export default async function BlogPostPage({ params }: PageProps) {
 
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: serializeStructuredData([articleSchema, breadcrumbSchema]) }}
+      />
+
       {/* Hero Header with Featured Image */}
       <header className="relative h-[350px] md:h-[400px] overflow-hidden">
         {/* Background Image */}

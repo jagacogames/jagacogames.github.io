@@ -5,6 +5,7 @@ import { getGameBySlug, getAllGameSlugs } from '@/lib/markdown';
 import ReactMarkdown from 'react-markdown';
 import type { Metadata } from 'next';
 import ScreenshotGallery from '@/components/ScreenshotGallery';
+import { getVideoGameSchema, getGameBreadcrumbSchema, serializeStructuredData } from '@/lib/structuredData';
 
 interface PageProps {
   params: Promise<{
@@ -66,8 +67,16 @@ export default async function GameDetailPage({ params }: PageProps) {
     notFound();
   }
 
+  const videoGameSchema = getVideoGameSchema(game);
+  const breadcrumbSchema = getGameBreadcrumbSchema(game);
+
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: serializeStructuredData([videoGameSchema, breadcrumbSchema]) }}
+      />
+
       {/* Hero Section */}
       <div className="relative pt-32 pb-16 overflow-hidden">
         {/* Background Image */}

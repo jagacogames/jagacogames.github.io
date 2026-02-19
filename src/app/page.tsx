@@ -4,13 +4,20 @@ import { getAllBlogPosts, getAllGames } from '@/lib/markdown';
 import GameCard from '@/components/GameCard';
 import BlogCard from '@/components/BlogCard';
 import HeroCarousel from '@/components/HeroCarousel';
+import { getOrganizationSchema, serializeStructuredData } from '@/lib/structuredData';
 
 export default function Home() {
   const latestGames = getAllGames().slice(0, 3);
   const recentPosts = getAllBlogPosts().slice(0, 3);
+  const organizationSchema = getOrganizationSchema();
 
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: serializeStructuredData(organizationSchema) }}
+      />
+
       {/* Hero Carousel Section */}
       <HeroCarousel />
 
