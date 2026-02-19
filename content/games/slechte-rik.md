@@ -8,8 +8,8 @@ thumbnail: "/images/games/slechte-rik/logo.webp"
 screenshots:
   - "/images/games/slechte-rik/WebsiteStart.png"
   - "/images/games/slechte-rik/Screenshot-901.png"
-# storeLinks:
-#   web: "https://slechterik.jagaco.com"
+storeLinks:
+  web: "https://slechterik.jagaco.com"
 features:
   - "Created during a Game Jam event"
   - "Halloween-themed gameplay and atmosphere"

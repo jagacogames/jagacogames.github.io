@@ -1,4 +1,4 @@
-const { createCanvas, loadImage } = require('canvas');
+const { createCanvas, loadImage, registerFont } = require('canvas');
 const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
@@ -6,6 +6,58 @@ const matter = require('gray-matter');
 const BLOG_CONTENT_DIR = path.join(process.cwd(), 'content', 'blog');
 const OG_OUTPUT_DIR = path.join(process.cwd(), 'public', 'og');
 const LOGO_PATH = path.join(process.cwd(), 'public', 'images', 'jagaco-logo.png');
+const FONT_PATH = path.join(process.cwd(), 'public', 'fonts', 'Typomoderno bold.ttf');
+const BRAND_FONT_FAMILY = 'Typomoderno';
+const STRICT_OG_FONT =
+  process.argv.includes('--strict-og-font') ||
+  process.env.STRICT_OG_FONT === '1' ||
+  process.env.STRICT_OG_FONT === 'true';
+// Register Typomoderno font
+// Note: We keep a single canonical family name and verify at runtime that canvas is not silently falling back
+try {
+  if (!fs.existsSync(FONT_PATH)) {
+    console.error(`Font file not found at: ${FONT_PATH}`);
+    process.exit(1);
+  }
+  registerFont(FONT_PATH, { family: BRAND_FONT_FAMILY });
+  console.log('✓ Typomoderno font registered successfully');
+} catch (error) {
+  console.error('Error registering font:', error);
+  process.exit(1);
+}
+
+function verifyBrandFontLoaded() {
+  const canvas = createCanvas(1200, 200);
+  const ctx = canvas.getContext('2d');
+  const samples = [
+    'Jagaco Games 12345',
+    'The quick brown fox jumps over 13 lazy dogs.',
+    '#indie #dev #art #retro',
+  ];
+
+  const allMatchBoldSans = samples.every(sample => {
+    ctx.font = `72px "${BRAND_FONT_FAMILY}", sans-serif`;
+    const brandWidth = ctx.measureText(sample).width;
+
+    ctx.font = 'bold 72px sans-serif';
+    const boldSansWidth = ctx.measureText(sample).width;
+
+    return Math.abs(brandWidth - boldSansWidth) < 0.001;
+  });
+
+  if (allMatchBoldSans) {
+    const message =
+      `Font fallback detected for "${BRAND_FONT_FAMILY}". node-canvas is not using ${FONT_PATH} and is falling back to bold sans-serif. ` +
+      'Use a different Typomoderno font file (or convert this one to a standard TTF/OTF) that is compatible with node-canvas/Pango.';
+
+    if (STRICT_OG_FONT) {
+      throw new Error(message);
+    }
+
+    console.warn(`⚠ ${message}`);
+    console.warn('⚠ Continuing because strict mode is disabled. Set STRICT_OG_FONT=1 (or pass --strict-og-font) to fail on fallback.');
+  }
+}
 
 // Ensure output directory exists
 if (!fs.existsSync(OG_OUTPUT_DIR)) {
@@ -100,7 +152,7 @@ async function generateOGImage(post) {
     ctx.drawImage(logo, logoX, logoY, logoWidth, logoHeight);
 
     // Draw company name next to logo
-    ctx.font = 'bold 36px Arial, sans-serif';
+    ctx.font = `36px "${BRAND_FONT_FAMILY}", sans-serif`;
     ctx.fillStyle = 'white';
     ctx.shadowColor = 'rgba(0, 0, 0, 0.8)';
     ctx.shadowBlur = 8;
@@ -114,7 +166,7 @@ async function generateOGImage(post) {
   // Draw title
   const titleY = 280;
   const fontSize = post.title.length > 50 ? 48 : 64;
-  ctx.font = `bold ${fontSize}px Arial, sans-serif`;
+  ctx.font = `${fontSize}px "${BRAND_FONT_FAMILY}", sans-serif`;
   ctx.fillStyle = 'white';
   ctx.shadowColor = 'rgba(0, 0, 0, 0.8)';
   ctx.shadowBlur = 12;
@@ -147,7 +199,7 @@ async function generateOGImage(post) {
     const tagSpacing = 12;
     const tagFontSize = 20;
 
-    ctx.font = `bold ${tagFontSize}px Arial, sans-serif`;
+    ctx.font = `${tagFontSize}px "${BRAND_FONT_FAMILY}", sans-serif`;
 
     post.tags.forEach((tag, index) => {
       const tagText = `#${tag}`;
@@ -218,6 +270,7 @@ async function generateOGImage(post) {
 
 async function main() {
   console.log('Starting OG image generation...');
+  verifyBrandFontLoaded();
   const posts = getAllBlogPosts();
 
   for (const post of posts) {
