@@ -6,9 +6,10 @@ platforms: ["Web Browser"]
 releaseDate: "2015"
 thumbnail: "/images/games/slechte-rik/logo.webp"
 screenshots:
-  - "/images/games/slechte-rik/logo.webp"
+  - "/images/games/slechte-rik/WebsiteStart.png"
+  - "/images/games/slechte-rik/Screenshot-901.png"
 # storeLinks:
-#   itch: "https://slechterik.jagaco.com"
+#   web: "https://slechterik.jagaco.com"
 features:
   - "Created during a Game Jam event"
   - "Halloween-themed gameplay and atmosphere"
