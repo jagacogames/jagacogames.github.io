@@ -2,7 +2,7 @@
 title: "Game Developers Conference 2019"
 date: "2019-03-25"
 author: "Vincent Broeren"
-excerpt: "Five days at GDC 2019 in San Francisco—from Google Stadia's announcement to RTX raytracing and insights from industry giants."
+excerpt: "Five days at GDC 2019 in San Francisco, from Google Stadia's announcement to RTX raytracing and insights from industry giants."
 tags: ["GDC", "technology", "art", "game-development"]
 featuredImage: "/blog/_featured/game-developers-conference-2019.png"
 ---
