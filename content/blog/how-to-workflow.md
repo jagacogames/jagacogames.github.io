@@ -2,7 +2,7 @@
 title: "How to Workflow"
 date: "2021-04-10"
 author: "Vincent Broeren"
-excerpt: "Development lessons from our new RPG project—best practices for indie game development including demos, systems, and perseverance."
+excerpt: "Development lessons from our new RPG project, best practices for indie game development including demos, systems, and perseverance."
 tags: ["technology", "game-development", "workflow"]
 ---
 

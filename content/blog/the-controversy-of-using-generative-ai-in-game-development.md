@@ -2,7 +2,7 @@
 title: "The Controversy of Using Generative AI in Game Development"
 date: "2025-07-31"
 author: "Vincent Broeren"
-excerpt: "Examining the dual nature of generative AI in game development—highlighting both opportunities and concerns, and how Jagaco Games uses AI as a collaborative tool."
+excerpt: "Examining the dual nature of generative AI in game development, highlighting both opportunities and concerns, and how Jagaco Games uses AI as a collaborative tool."
 tags: ["AI", "game-development", "technology", "Quinn's Quest"]
 ---
 

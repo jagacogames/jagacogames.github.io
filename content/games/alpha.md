@@ -3,7 +3,7 @@ title: "Alpha"
 description: "An applied game that helps players understand and experience a broad spectrum of Information Security problems through interactive gameplay."
 genre: ["Educational", "Simulation", "Security Training"]
 platforms: ["PC", "Web"]
-releaseDate: "2022-02"
+releaseDate: "2017"
 thumbnail: "/images/games/alpha/logo.webp"
 featuredImage: "/images/games/alpha/screenshot-1.webp"
 screenshots:

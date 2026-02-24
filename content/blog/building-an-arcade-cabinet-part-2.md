@@ -2,7 +2,7 @@
 title: "Building an Arcade Cabinet (Part 2)"
 date: "2017-06-22"
 author: "Thom Zeilstra"
-excerpt: "The physical construction phase—cutting MDF, working with acrylic, and assembling our custom arcade cabinet."
+excerpt: "The physical construction phase cutting MDF, working with acrylic, and assembling our custom arcade cabinet."
 tags: ["hardware", "arcade", "DIY"]
 featuredImage: "/blog/_featured/building-an-arcade-cabinet-part-2.jpg"
 ---

@@ -2,7 +2,7 @@
 title: "Happy Pi Day!"
 date: "2021-03-14"
 author: "Vincent Broeren"
-excerpt: "Exploring the mathematical constant Pi through programming—from visualization to calculating 100,000 digits using the Chudnovsky algorithm."
+excerpt: "Exploring the mathematical constant Pi through programming, from visualization to calculating 100,000 digits using the Chudnovsky algorithm."
 tags: ["technology", "programming", "mathematics"]
 featuredImage: "/blog/_featured/happy-pi-day.png"
 ---

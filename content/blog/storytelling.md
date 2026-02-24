@@ -2,7 +2,7 @@
 title: "Storytelling"
 date: "2021-08-03"
 author: "Vincent Broeren"
-excerpt: "A programmer's journey into narrative writing—carrying a story for two decades and finally bringing it to life."
+excerpt: "A programmer's journey into narrative writing, carrying a story for two decades and finally bringing it to life."
 tags: ["Quinn's Quest", "writing", "art", "game-development"]
 featuredImage: "/blog/_featured/storytelling.png"
 ---

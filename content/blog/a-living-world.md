@@ -2,7 +2,7 @@
 title: "A Living World"
 date: "2025-05-22"
 author: "Vincent Broeren"
-excerpt: "Why our game is more than just empty space—creating a world full of people, purpose, and stories that respond to player actions."
+excerpt: "Why our game is more than just empty space, creating a world full of people, purpose, and stories that respond to player actions."
 tags: ["Quinn's Quest", "game-design", "world-building", "art"]
 featuredImage: "/blog/_featured/a-living-world.png"
 ---
