@@ -42,7 +42,7 @@ export default function EnginePage() {
                   Fire Engine
                 </h2>
                 <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                  Our proprietary <strong>Fire Engine</strong> is a custom-built 2D/3D game engine that powers all our game development. The engine is currently strongly specialized in 2D isometric games like you'd see in RTS's and 'God' games, with ongoing expansion toward broader 3D capabilities.
+                  Our proprietary <strong>Fire Engine</strong> is a custom-built 2D/3D game engine that powers all our game development. The engine is currently strongly specialized in 2D isometric games like you'd see in Real-time strategy (RTS) and 'God' games, with ongoing expansion toward broader 3D capabilities.
                 </p>
                 <p className="text-gray-600 text-lg leading-relaxed mb-6">
                   Built from the ground up with our specific needs in mind, Fire Engine gives us complete control over performance, rendering, and gameplay mechanics. This allows us to create unique gaming experiences that wouldn't be possible with off-the-shelf solutions.
@@ -119,7 +119,7 @@ export default function EnginePage() {
                   The <strong>Matchbox Editor</strong> serves as our comprehensive development suite, consolidating multiple specialized tools into one integrated platform. It's the command center where all our game content comes to life.
                 </p>
                 <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                  By bringing together various tools and workflows into a single, cohesive editor, we've dramatically streamlined our development process. What used to require multiple applications and manual file management now happens seamlessly in one place.
+                  What used to require multiple applications and manual file management now happens seamlessly and automatically in one place.
                 </p>
                 <div className="bg-[#E8E8E8] rounded-lg p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-4 uppercase">Integrated Tools</h3>
@@ -134,19 +134,19 @@ export default function EnginePage() {
                       <svg className="w-6 h-6 text-[#E91E63] mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span className="text-gray-700">Scenario and mission editing capabilities</span>
+                      <span className="text-gray-700">Scenario and mission creation</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-6 h-6 text-[#E91E63] mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span className="text-gray-700">Animation editing and timeline tools</span>
+                      <span className="text-gray-700">Automated creation and editing of animation spritesheets with optimized bin-packing</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-6 h-6 text-[#E91E63] mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span className="text-gray-700">Level design and world building tools</span>
+                      <span className="text-gray-700">Level and world building tools</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-6 h-6 text-[#E91E63] mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -158,7 +158,7 @@ export default function EnginePage() {
                       <svg className="w-6 h-6 text-[#E91E63] mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span className="text-gray-700">RPG-style conversation building and editing</span>
+                      <span className="text-gray-700">RPG-style conversation tree building and editing</span>
                     </li>
                   </ul>
                 </div>
