@@ -2,7 +2,7 @@
 title: "Ungoverned Lands"
 description: "Hand-painted 2D isometric real-time strategy game where factions compete for control of essenite, a magical resource erupting from distant lands."
 genre: ["RTS", "Strategy", "Mobile", "Multiplayer"]
-platforms: ["Windows", "Windows Phone", "Android", "iOS"]
+platforms: ["Windows Phone"]
 releaseDate: "2014"
 thumbnail: "/images/games/ungoverned-lands/logo.webp"
 screenshots:
