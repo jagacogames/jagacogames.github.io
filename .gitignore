@@ -42,3 +42,4 @@ next-env.d.ts
 
 #generated assets
 public/og
+public/rss.xml
