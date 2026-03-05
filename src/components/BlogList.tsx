@@ -44,7 +44,7 @@ export default function BlogList({ posts }: BlogListProps) {
             className={`px-4 py-2 rounded-lg font-medium transition-colors ${
               currentPage === 1
                 ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
-                : 'bg-white border-2 border-gray-300 text-gray-700 hover:border-[#E91E63] hover:text-[#E91E63]'
+                : 'bg-white border-2 border-gray-300 text-gray-700 hover:border-jagaco-pink hover:text-jagaco-pink'
             }`}
             aria-label="Previous page"
           >
@@ -59,8 +59,8 @@ export default function BlogList({ posts }: BlogListProps) {
                 onClick={() => handlePageChange(page)}
                 className={`w-10 h-10 rounded-lg font-medium transition-colors ${
                   currentPage === page
-                    ? 'bg-[#E91E63] text-white'
-                    : 'bg-white border-2 border-gray-300 text-gray-700 hover:border-[#E91E63] hover:text-[#E91E63]'
+                    ? 'bg-jagaco-pink text-white'
+                    : 'bg-white border-2 border-gray-300 text-gray-700 hover:border-jagaco-pink hover:text-jagaco-pink'
                 }`}
                 aria-label={`Go to page ${page}`}
                 aria-current={currentPage === page ? 'page' : undefined}
@@ -77,7 +77,7 @@ export default function BlogList({ posts }: BlogListProps) {
             className={`px-4 py-2 rounded-lg font-medium transition-colors ${
               currentPage === totalPages
                 ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
-                : 'bg-white border-2 border-gray-300 text-gray-700 hover:border-[#E91E63] hover:text-[#E91E63]'
+                : 'bg-white border-2 border-gray-300 text-gray-700 hover:border-jagaco-pink hover:text-jagaco-pink'
             }`}
             aria-label="Next page"
           >

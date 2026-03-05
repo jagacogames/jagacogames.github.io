@@ -7,7 +7,7 @@ export default function BlogPage() {
   return (
     <>
       {/* Hero Header */}
-      <section className="relative bg-gradient-to-br from-[#FDB614] via-[#FDB614] to-[#E91E63] pt-32 pb-20 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-jagaco-yellow via-jagaco-yellow to-jagaco-pink pt-32 pb-20 overflow-hidden">
         {/* Decorative Elements */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-10 right-10 w-32 h-32 bg-white rounded-full animate-float" />

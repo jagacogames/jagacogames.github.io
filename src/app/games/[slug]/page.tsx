@@ -97,7 +97,7 @@ export default async function GameDetailPage({ params }: PageProps) {
         {/* Fallback gradient if no featured image */}
         {!game.featuredImage && (
           <>
-            <div className="absolute inset-0 bg-gradient-to-br from-[#7FBA00] via-[#4A90E2] to-[#9C27B0]"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-jagaco-green via-jagaco-blue to-jagaco-purple"></div>
             {/* Decorative Elements */}
             <div className="absolute inset-0 opacity-10">
               <div className="absolute top-10 right-10 w-32 h-32 bg-white rounded-full animate-float" />
@@ -109,7 +109,7 @@ export default async function GameDetailPage({ params }: PageProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <Link
             href="/games"
-            className="inline-flex items-center text-white hover:text-[#FDB614] mb-8 transition-colors font-medium"
+            className="inline-flex items-center text-white hover:text-jagaco-yellow mb-8 transition-colors font-medium"
           >
             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
@@ -186,7 +186,7 @@ export default async function GameDetailPage({ params }: PageProps) {
                     li: ({node, ...props}) => <li className="ml-4" {...props} />,
                     strong: ({node, ...props}) => <strong className="font-bold text-gray-900" {...props} />,
                     em: ({node, ...props}) => <em className="italic" {...props} />,
-                    a: ({node, ...props}) => <a className="text-[#E91E63] hover:text-[#C2185B] underline" {...props} />,
+                    a: ({node, ...props}) => <a className="text-jagaco-pink hover:text-jagaco-pink-dark underline" {...props} />,
                     code: ({node, ...props}) => <code className="bg-gray-100 px-2 py-1 rounded text-sm" {...props} />,
                   }}
                 >
@@ -201,7 +201,7 @@ export default async function GameDetailPage({ params }: PageProps) {
                 {game.features.map((feature, index) => (
                   <li key={index} className="flex items-start">
                     <svg
-                      className="w-6 h-6 text-[#E91E63] mr-3 flex-shrink-0 mt-0.5"
+                      className="w-6 h-6 text-jagaco-pink mr-3 flex-shrink-0 mt-0.5"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -222,7 +222,7 @@ export default async function GameDetailPage({ params }: PageProps) {
 
           {/* Sidebar */}
           <div className="lg:col-span-1">
-            <div className="bg-[#E8E8E8] rounded-lg p-6 sticky top-24">
+            <div className="bg-jagaco-light-gray rounded-lg p-6 sticky top-24">
               {game.storeLinks && (
                 <>
                   <h3 className="text-xl font-bold text-gray-900 mb-4 uppercase">Get the Game</h3>
@@ -230,7 +230,7 @@ export default async function GameDetailPage({ params }: PageProps) {
                     {game.storeLinks.steam && (
                       <a
                         href={game.storeLinks.steam}
-                        className="block w-full py-3 px-4 bg-[#E91E63] hover:bg-[#C2185B] text-white font-bold rounded-lg text-center transition-all uppercase shadow-lg"
+                        className="block w-full py-3 px-4 bg-jagaco-pink hover:bg-jagaco-pink-dark text-white font-bold rounded-lg text-center transition-all uppercase shadow-lg"
                       >
                         Get on Steam
                       </a>
@@ -238,7 +238,7 @@ export default async function GameDetailPage({ params }: PageProps) {
                     {game.storeLinks.itch && (
                       <a
                         href={game.storeLinks.itch}
-                        className="block w-full py-3 px-4 bg-[#E91E63] hover:bg-[#C2185B] text-white font-bold rounded-lg text-center transition-all uppercase shadow-lg"
+                        className="block w-full py-3 px-4 bg-jagaco-pink hover:bg-jagaco-pink-dark text-white font-bold rounded-lg text-center transition-all uppercase shadow-lg"
                       >
                         Get on Itch.io
                       </a>
@@ -246,7 +246,7 @@ export default async function GameDetailPage({ params }: PageProps) {
                     {game.storeLinks.gog && (
                       <a
                         href={game.storeLinks.gog}
-                        className="block w-full py-3 px-4 bg-[#E91E63] hover:bg-[#C2185B] text-white font-bold rounded-lg text-center transition-all uppercase shadow-lg"
+                        className="block w-full py-3 px-4 bg-jagaco-pink hover:bg-jagaco-pink-dark text-white font-bold rounded-lg text-center transition-all uppercase shadow-lg"
                       >
                         Get on GOG
                       </a>
@@ -254,7 +254,7 @@ export default async function GameDetailPage({ params }: PageProps) {
                     {game.storeLinks.web && (
                       <a
                         href={game.storeLinks.web}
-                        className="block w-full py-3 px-4 bg-[#E91E63] hover:bg-[#C2185B] text-white font-bold rounded-lg text-center transition-all uppercase shadow-lg"
+                        className="block w-full py-3 px-4 bg-jagaco-pink hover:bg-jagaco-pink-dark text-white font-bold rounded-lg text-center transition-all uppercase shadow-lg"
                       >
                         View on Web
                       </a>

@@ -2,7 +2,8 @@
 
 :root {
   --jagaco-yellow: #FDB614;
-  --jagaco-pink: #E91E63;
+  --jagaco-pink: #E2135A;
+  --jagaco-pink-dark: #C2185B;
   --jagaco-blue: #4A90E2;
   --jagaco-green: #7FBA00;
   --jagaco-orange: #FF8C42;
@@ -15,11 +16,20 @@
   --font-sans: var(--font-roboto);
   --font-display: var(--font-roboto);
   --font-brand: var(--font-typomoderno);
+  --color-jagaco-yellow: var(--jagaco-yellow);
+  --color-jagaco-pink: var(--jagaco-pink);
+  --color-jagaco-pink-dark: var(--jagaco-pink-dark);
+  --color-jagaco-blue: var(--jagaco-blue);
+  --color-jagaco-green: var(--jagaco-green);
+  --color-jagaco-orange: var(--jagaco-orange);
+  --color-jagaco-purple: var(--jagaco-purple);
+  --color-jagaco-light-gray: var(--jagaco-light-gray);
+  --color-jagaco-dark: var(--jagaco-dark);
 }
 
 body {
   background: #ffffff;
-  color: #2C3E50;
+  color: var(--jagaco-dark);
   font-family: var(--font-roboto), system-ui, sans-serif;
 }
 

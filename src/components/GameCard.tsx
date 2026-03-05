@@ -30,13 +30,13 @@ export default function GameCard({ game }: GameCardProps) {
           )}
         </div>
         <div className="p-6 flex flex-col flex-grow">
-          <h3 className="text-xl font-bold text-gray-900 mb-2 uppercase hover:text-[#E91E63] transition-colors">{game.title}</h3>
+          <h3 className="text-xl font-bold text-gray-900 mb-2 uppercase hover:text-jagaco-pink transition-colors">{game.title}</h3>
           <p className="text-gray-600 text-sm mb-4 flex-grow leading-relaxed">{game.description}</p>
           <div className="flex flex-wrap gap-2 mb-3 pt-4 border-t border-gray-200">
             {game.genre.slice(0, 3).map((tag) => (
               <span
                 key={tag}
-                className="px-3 py-1 bg-[#E8E8E8] text-gray-700 text-xs rounded-full font-medium"
+                className="px-3 py-1 bg-jagaco-light-gray text-gray-700 text-xs rounded-full font-medium"
               >
                 {tag}
               </span>

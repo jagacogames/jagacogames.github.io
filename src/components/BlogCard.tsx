@@ -48,7 +48,7 @@ export default function BlogCard({ post }: BlogCardProps) {
           </div>
         )}
         <div className="p-6 flex flex-col flex-grow">
-          <h3 className="text-xl font-bold text-gray-900 mb-2 uppercase hover:text-[#E91E63] transition-colors">
+          <h3 className="text-xl font-bold text-gray-900 mb-2 uppercase hover:text-jagaco-pink transition-colors">
             {post.title}
           </h3>
           <div className="flex items-center text-xs text-gray-500 mb-3">
@@ -60,7 +60,7 @@ export default function BlogCard({ post }: BlogCardProps) {
               {post.tags.slice(0, 3).map((tag) => (
                 <span
                   key={tag}
-                  className="px-3 py-1 bg-[#E8E8E8] text-gray-700 text-xs rounded-full font-medium"
+                  className="px-3 py-1 bg-jagaco-light-gray text-gray-700 text-xs rounded-full font-medium"
                 >
                   {tag}
                 </span>

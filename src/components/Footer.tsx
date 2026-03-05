@@ -59,7 +59,7 @@ export default function Footer() {
               href="/rss.xml"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-600 hover:text-[#FDB614] transition-colors"
+              className="text-gray-600 hover:text-jagaco-yellow transition-colors"
               aria-label="RSS Feed"
             >
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">

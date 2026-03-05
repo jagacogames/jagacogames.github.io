@@ -10,7 +10,7 @@ export default function EnginePage() {
   return (
     <>
       {/* Hero Header */}
-      <section className="relative bg-gradient-to-br from-[#7FBA00] via-[#4A90E2] to-[#9C27B0] pt-32 pb-20 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-jagaco-green via-jagaco-blue to-jagaco-purple pt-32 pb-20 overflow-hidden">
         {/* Decorative Elements */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-10 right-10 w-32 h-32 bg-white rounded-full animate-float" />
@@ -47,35 +47,35 @@ export default function EnginePage() {
                 <p className="text-gray-600 text-lg leading-relaxed mb-6">
                   Built from the ground up with our specific needs in mind, Fire Engine gives us complete control over performance, rendering, and gameplay mechanics. This allows us to create unique gaming experiences that wouldn't be possible with off-the-shelf solutions.
                 </p>
-                <div className="bg-[#E8E8E8] rounded-lg p-6">
+                <div className="bg-jagaco-light-gray rounded-lg p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-4 uppercase">Key Features</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
-                      <svg className="w-6 h-6 text-[#E91E63] mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-6 h-6 text-jagaco-pink mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                       <span className="text-gray-700">Specialized 2D isometric rendering optimized for RTS games</span>
                     </li>
                     <li className="flex items-start">
-                      <svg className="w-6 h-6 text-[#E91E63] mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-6 h-6 text-jagaco-pink mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                       <span className="text-gray-700">Expanding 3D capabilities for future projects</span>
                     </li>
                     <li className="flex items-start">
-                      <svg className="w-6 h-6 text-[#E91E63] mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-6 h-6 text-jagaco-pink mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                       <span className="text-gray-700">High-performance rendering pipeline</span>
                     </li>
                     <li className="flex items-start">
-                      <svg className="w-6 h-6 text-[#E91E63] mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-6 h-6 text-jagaco-pink mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                       <span className="text-gray-700">Cross-platform support (PC, Mobile, Web)</span>
                     </li>
                     <li className="flex items-start">
-                      <svg className="w-6 h-6 text-[#E91E63] mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-6 h-6 text-jagaco-pink mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                       <span className="text-gray-700">Custom scripting and gameplay systems</span>
@@ -121,41 +121,41 @@ export default function EnginePage() {
                 <p className="text-gray-600 text-lg leading-relaxed mb-6">
                   What used to require multiple applications and manual file management now happens seamlessly and automatically in one place.
                 </p>
-                <div className="bg-[#E8E8E8] rounded-lg p-6">
+                <div className="bg-jagaco-light-gray rounded-lg p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-4 uppercase">Integrated Tools</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
-                      <svg className="w-6 h-6 text-[#E91E63] mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-6 h-6 text-jagaco-pink mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                       <span className="text-gray-700">Texture atlas generation and management</span>
                     </li>
                     <li className="flex items-start">
-                      <svg className="w-6 h-6 text-[#E91E63] mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-6 h-6 text-jagaco-pink mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                       <span className="text-gray-700">Scenario and mission creation</span>
                     </li>
                     <li className="flex items-start">
-                      <svg className="w-6 h-6 text-[#E91E63] mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-6 h-6 text-jagaco-pink mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                       <span className="text-gray-700">Automated creation and editing of animation spritesheets with optimized bin-packing</span>
                     </li>
                     <li className="flex items-start">
-                      <svg className="w-6 h-6 text-[#E91E63] mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-6 h-6 text-jagaco-pink mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                       <span className="text-gray-700">Level and world building tools</span>
                     </li>
                     <li className="flex items-start">
-                      <svg className="w-6 h-6 text-[#E91E63] mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-6 h-6 text-jagaco-pink mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                       <span className="text-gray-700">Fully automated asset pipeline</span>
                     </li>
                     <li className="flex items-start">
-                      <svg className="w-6 h-6 text-[#E91E63] mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-6 h-6 text-jagaco-pink mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                       <span className="text-gray-700">RPG-style conversation tree building and editing</span>
@@ -167,7 +167,7 @@ export default function EnginePage() {
           </section>
 
           {/* Philosophy Section */}
-          <section className="bg-gradient-to-br from-[#7FBA00] via-[#4A90E2] to-[#d01212] rounded-3xl p-12 md:p-16 text-white">
+          <section className="bg-gradient-to-br from-jagaco-green via-jagaco-blue to-[#d01212] rounded-3xl p-12 md:p-16 text-white">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-4xl md:text-5xl font-bold mb-8 uppercase">
                 Our Development Philosophy
@@ -190,8 +190,8 @@ export default function EnginePage() {
               Why Custom Technology?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-[#E8E8E8] rounded-xl p-8 text-center">
-                <div className="w-20 h-20 bg-[#7FBA00] rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="bg-jagaco-light-gray rounded-xl p-8 text-center">
+                <div className="w-20 h-20 bg-jagaco-green rounded-full flex items-center justify-center mx-auto mb-6">
                   <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
@@ -202,8 +202,8 @@ export default function EnginePage() {
                 </p>
               </div>
 
-              <div className="bg-[#E8E8E8] rounded-xl p-8 text-center">
-                <div className="w-20 h-20 bg-[#4A90E2] rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="bg-jagaco-light-gray rounded-xl p-8 text-center">
+                <div className="w-20 h-20 bg-jagaco-blue rounded-full flex items-center justify-center mx-auto mb-6">
                   <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                   </svg>
@@ -214,7 +214,7 @@ export default function EnginePage() {
                 </p>
               </div>
 
-              <div className="bg-[#E8E8E8] rounded-xl p-8 text-center">
+              <div className="bg-jagaco-light-gray rounded-xl p-8 text-center">
                 <div className="w-20 h-20 bg-[#d01212] rounded-full flex items-center justify-center mx-auto mb-6">
                   <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />

@@ -18,7 +18,7 @@ export default function NotFound() {
         </div>
 
         {/* 404 Text */}
-        <h1 className="text-9xl font-bold text-[#FDB614] mb-4 animate-scale-in">
+        <h1 className="text-9xl font-bold text-jagaco-yellow mb-4 animate-scale-in">
           404
         </h1>
 
@@ -36,7 +36,7 @@ export default function NotFound() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up stagger-2">
           <Link
             href="/"
-            className="bg-[#FDB614] text-gray-900 px-8 py-4 rounded-lg font-bold hover:bg-yellow-500 transition-colors uppercase"
+            className="bg-jagaco-yellow text-gray-900 px-8 py-4 rounded-lg font-bold hover:bg-yellow-500 transition-colors uppercase"
           >
             Go Home
           </Link>
@@ -50,7 +50,7 @@ export default function NotFound() {
 
         {/* Additional Help */}
         <div className="mt-12 text-gray-400 text-sm animate-fade-in-up stagger-3">
-          <p>Need help? Check out our <Link href="/blog" className="text-[#FDB614] hover:underline">blog</Link> or return to the <Link href="/" className="text-[#FDB614] hover:underline">homepage</Link>.</p>
+          <p>Need help? Check out our <Link href="/blog" className="text-jagaco-yellow hover:underline">blog</Link> or return to the <Link href="/" className="text-jagaco-yellow hover:underline">homepage</Link>.</p>
         </div>
       </div>
     </div>

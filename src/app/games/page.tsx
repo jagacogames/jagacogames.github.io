@@ -39,7 +39,7 @@ export default function GamesPage() {
       />
 
       {/* Hero Header */}
-      <section className="relative bg-gradient-to-br from-[#7FBA00] via-[#4A90E2] to-[#9C27B0] pt-32 pb-20 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-jagaco-green via-jagaco-blue to-jagaco-purple pt-32 pb-20 overflow-hidden">
         {/* Decorative Elements */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-10 right-10 w-32 h-32 bg-white rounded-full animate-float" />

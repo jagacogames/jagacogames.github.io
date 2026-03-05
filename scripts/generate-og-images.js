@@ -137,7 +137,7 @@ async function generateOGImage(post) {
   if (!hasBackground) {
     const gradient = ctx.createLinearGradient(0, 0, width, height);
     gradient.addColorStop(0, '#FDB614');
-    gradient.addColorStop(1, '#E91E63');
+    gradient.addColorStop(1, '#E2135A');
     ctx.fillStyle = gradient;
     ctx.fillRect(0, 0, width, height);
   }

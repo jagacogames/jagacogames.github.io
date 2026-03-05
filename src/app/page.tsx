@@ -23,7 +23,7 @@ export default function Home() {
       <HeroCarousel />
 
       {/* What is Jagaco Section */}
-      <section className="bg-[#FDB614] py-16 md:py-24">
+      <section className="bg-jagaco-yellow py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
             <div className="animate-fade-in-up">
@@ -82,7 +82,7 @@ export default function Home() {
 
           <div className="text-center">
             <Link href="/games">
-              <button className="px-8 py-3 bg-[#E91E63] hover:bg-[#C2185B] text-white font-bold rounded-full uppercase transition-colors shadow-lg">
+              <button className="px-8 py-3 bg-jagaco-pink hover:bg-jagaco-pink-dark text-white font-bold rounded-full uppercase transition-colors shadow-lg">
                 MORE GAMES
               </button>
             </Link>
@@ -91,10 +91,10 @@ export default function Home() {
       </section>
 
       {/* Dev Pillars Section */}
-      <section className="py-16 md:py-24 bg-[#E8E8E8]">
+      <section className="py-16 md:py-24 bg-jagaco-light-gray">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-            <div className="bg-[#FDB614] p-8 rounded-lg shadow-lg animate-slide-in-left">
+            <div className="bg-jagaco-yellow p-8 rounded-lg shadow-lg animate-slide-in-left">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 uppercase">
                 SOFTWARE AND TOOLING
               </h3>
@@ -175,7 +175,7 @@ export default function Home() {
 
           <div className="text-center">
             <Link href="/blog">
-              <button className="px-8 py-3 bg-[#E91E63] hover:bg-[#C2185B] text-white font-bold rounded-full uppercase transition-colors shadow-lg">
+              <button className="px-8 py-3 bg-jagaco-pink hover:bg-jagaco-pink-dark text-white font-bold rounded-full uppercase transition-colors shadow-lg">
                 MORE BLOG POSTS
               </button>
             </Link>
@@ -184,7 +184,7 @@ export default function Home() {
       </section>
 
       {/* Team Section */}
-      <section id="team" className="py-16 md:py-24 bg-[#E8E8E8]">
+      <section id="team" className="py-16 md:py-24 bg-jagaco-light-gray">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 uppercase">
             WE ARE JAGACO

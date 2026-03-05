@@ -128,7 +128,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
         {/* Fallback gradient if no image */}
         {!post.featuredImage && (
-          <div className="absolute inset-0 bg-gradient-to-br from-[#E91E63] via-[#FDB614] to-[#E91E63]"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-jagaco-pink via-jagaco-yellow to-jagaco-pink"></div>
         )}
 
         {/* Content */}
@@ -137,7 +137,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           <nav className="mb-6">
             <ol className="flex items-center space-x-2 text-sm text-white/90">
               <li>
-                <Link href="/" className="hover:text-[#FDB614] transition-colors">
+                <Link href="/" className="hover:text-jagaco-yellow transition-colors">
                   Home
                 </Link>
               </li>
@@ -145,7 +145,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                 <span className="mx-2">/</span>
               </li>
               <li>
-                <Link href="/blog" className="hover:text-[#FDB614] transition-colors">
+                <Link href="/blog" className="hover:text-jagaco-yellow transition-colors">
                   Blog
                 </Link>
               </li>
@@ -209,7 +209,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                 <p className="text-gray-700 mb-4 leading-relaxed" {...props} />
               ),
               a: ({ ...props }) => (
-                <a className="text-[#E91E63] hover:text-[#C2185B] transition-colors underline" {...props} />
+                <a className="text-jagaco-pink hover:text-jagaco-pink-dark transition-colors underline" {...props} />
               ),
               ul: ({ ...props }) => (
                 <ul className="list-disc list-inside text-gray-700 mb-4 space-y-2" {...props} />
@@ -221,22 +221,22 @@ export default async function BlogPostPage({ params }: PageProps) {
                 <li className="text-gray-700" {...props} />
               ),
               blockquote: ({ ...props }) => (
-                <blockquote className="border-l-4 border-[#FDB614] pl-4 italic text-gray-600 my-4 bg-[#E8E8E8] py-2" {...props} />
+                <blockquote className="border-l-4 border-jagaco-yellow pl-4 italic text-gray-600 my-4 bg-jagaco-light-gray py-2" {...props} />
               ),
               code: ({ className, children, ...props }) => {
                 const isInline = !className;
                 return isInline ? (
-                  <code className="bg-[#E8E8E8] text-[#E91E63] px-1.5 py-0.5 rounded text-sm font-semibold" {...props}>
+                  <code className="bg-jagaco-light-gray text-jagaco-pink px-1.5 py-0.5 rounded text-sm font-semibold" {...props}>
                     {children}
                   </code>
                 ) : (
-                  <code className="block bg-[#E8E8E8] text-gray-800 p-4 rounded-lg overflow-x-auto text-sm" {...props}>
+                  <code className="block bg-jagaco-light-gray text-gray-800 p-4 rounded-lg overflow-x-auto text-sm" {...props}>
                     {children}
                   </code>
                 );
               },
               pre: ({ ...props }) => (
-                <pre className="bg-[#E8E8E8] rounded-lg overflow-x-auto mb-4" {...props} />
+                <pre className="bg-jagaco-light-gray rounded-lg overflow-x-auto mb-4" {...props} />
               ),
               hr: ({ ...props }) => (
                 <hr className="border-gray-300 my-8" {...props} />
@@ -281,7 +281,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         <footer className="mt-16 pt-8 border-t border-gray-300">
           <Link
             href="/blog"
-            className="inline-flex items-center text-[#E91E63] hover:text-[#C2185B] transition-colors font-semibold"
+            className="inline-flex items-center text-jagaco-pink hover:text-jagaco-pink-dark transition-colors font-semibold"
           >
             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />

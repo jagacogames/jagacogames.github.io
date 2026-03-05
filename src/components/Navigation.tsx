@@ -30,25 +30,25 @@ export default function Navigation() {
           <div className="hidden md:flex items-center gap-8">
             <Link
               href="/blog"
-              className="text-white hover:text-[#FDB614] transition-colors font-medium text-[14px] uppercase tracking-wide"
+              className="text-white hover:text-jagaco-yellow transition-colors font-medium text-[14px] uppercase tracking-wide"
             >
               BLOG
             </Link>
             <Link
               href="/games"
-              className="text-white hover:text-[#FDB614] transition-colors font-medium text-[14px] uppercase tracking-wide"
+              className="text-white hover:text-jagaco-yellow transition-colors font-medium text-[14px] uppercase tracking-wide"
             >
               GAMES
             </Link>
             <Link
               href="/engine"
-              className="text-white hover:text-[#FDB614] transition-colors font-medium text-[14px] uppercase tracking-wide"
+              className="text-white hover:text-jagaco-yellow transition-colors font-medium text-[14px] uppercase tracking-wide"
             >
               ENGINE
             </Link>
             <Link
               href="/#team"
-              className="text-white hover:text-[#FDB614] transition-colors font-medium text-[14px] uppercase tracking-wide"
+              className="text-white hover:text-jagaco-yellow transition-colors font-medium text-[14px] uppercase tracking-wide"
             >
               TEAM
             </Link>
@@ -58,7 +58,7 @@ export default function Navigation() {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-white hover:text-[#FDB614] focus:outline-none"
+              className="text-white hover:text-jagaco-yellow focus:outline-none"
               aria-label="Toggle menu"
             >
               <svg
@@ -87,28 +87,28 @@ export default function Navigation() {
           <div className="px-4 pt-2 pb-3 space-y-1">
             <Link
               href="/blog"
-              className="block px-3 py-2 text-gray-900 hover:text-[#FDB614] hover:bg-gray-50 rounded-md transition-colors font-medium"
+              className="block px-3 py-2 text-gray-900 hover:text-jagaco-yellow hover:bg-gray-50 rounded-md transition-colors font-medium"
               onClick={() => setIsMenuOpen(false)}
             >
               BLOG
             </Link>
             <Link
               href="/games"
-              className="block px-3 py-2 text-gray-900 hover:text-[#FDB614] hover:bg-gray-50 rounded-md transition-colors font-medium"
+              className="block px-3 py-2 text-gray-900 hover:text-jagaco-yellow hover:bg-gray-50 rounded-md transition-colors font-medium"
               onClick={() => setIsMenuOpen(false)}
             >
               GAMES
             </Link>
             <Link
               href="/engine"
-              className="block px-3 py-2 text-gray-900 hover:text-[#FDB614] hover:bg-gray-50 rounded-md transition-colors font-medium"
+              className="block px-3 py-2 text-gray-900 hover:text-jagaco-yellow hover:bg-gray-50 rounded-md transition-colors font-medium"
               onClick={() => setIsMenuOpen(false)}
             >
               ENGINE
             </Link>
             <Link
               href="/#team"
-              className="block px-3 py-2 text-gray-900 hover:text-[#FDB614] hover:bg-gray-50 rounded-md transition-colors font-medium"
+              className="block px-3 py-2 text-gray-900 hover:text-jagaco-yellow hover:bg-gray-50 rounded-md transition-colors font-medium"
               onClick={() => setIsMenuOpen(false)}
             >
               TEAM
