@@ -13,6 +13,7 @@ export default function Home() {
 
   return (
     <div>
+      <link rel="preload" as="image" href="/images/hero/blokje-om.webp" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeStructuredData(organizationSchema) }}
