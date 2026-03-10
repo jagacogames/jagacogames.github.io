@@ -1,0 +1,20 @@
+[
+  {
+    "from": "/Tech",
+    "to": "/engine",
+    "comment": "old tech url, redirect to new one"
+  },
+  {
+    "from": "/tech",
+    "to": "/engine",
+    "comment": "old tech url, redirect to new one"
+  },
+  {
+    "from": "/projects/alpha",
+    "to": "/games/tech"
+  },
+  {
+    "from": "/projects/alpha",
+    "to": "/games/tech"
+  }
+]
