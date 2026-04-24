@@ -1,20 +1,29 @@
 [
   {
     "from": "/Tech",
-    "to": "/engine",
+    "to": "/engine/",
     "comment": "old tech url, redirect to new one"
   },
   {
     "from": "/tech",
-    "to": "/engine",
+    "to": "/engine/",
     "comment": "old tech url, redirect to new one"
   },
   {
     "from": "/projects/alpha",
-    "to": "/games/tech"
+    "to": "/games/alpha/"
   },
   {
-    "from": "/projects/alpha",
-    "to": "/games/tech"
+    "from": "/projects/blokje-om",
+    "to": "/games/blokje-om/"
+  },
+  {
+    "from": "/projects",
+    "to": "/games/"
+  },
+  {
+    "from": "/presskit/sheet.php",
+    "to": "/games/ungoverned-lands/",
+    "comment": "legacy presskit PHP URL redirects to ungoverned lands game page"
   }
 ]

@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const year = date.getFullYear();
   const month = String(date.getMonth() + 1).padStart(2, '0');
   const day = String(date.getDate()).padStart(2, '0');
-  const postUrl = `${siteUrl}/${year}/${month}/${day}/${post.slug}`;
+  const postUrl = `${siteUrl}/${year}/${month}/${day}/${post.slug}/`;
   const ogImageUrl = `${siteUrl}/og/${post.slug}.png`;
 
   return {

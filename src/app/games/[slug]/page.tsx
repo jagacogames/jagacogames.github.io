@@ -30,6 +30,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: game.title,
     description: game.description,
     keywords: [game.title, ...game.genre, ...game.platforms, 'indie game', 'Jagaco Games'],
+    alternates: {
+      canonical: `/games/${slug}/`,
+    },
     openGraph: {
       title: game.title,
       description: game.description,
