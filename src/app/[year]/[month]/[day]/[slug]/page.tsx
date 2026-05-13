@@ -4,8 +4,21 @@ import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { Metadata } from 'next';
+import fs from 'fs';
+import path from 'path';
 import { getBlogPostBySlug, getAllBlogPosts } from '@/lib/markdown';
 import { getArticleSchema, getBlogBreadcrumbSchema, serializeStructuredData } from '@/lib/structuredData';
+
+function resolveHeroImage(imagePath: string | undefined): string | undefined {
+  if (!imagePath) return undefined;
+  const ext = path.extname(imagePath);
+  if (ext === '.jpg' || ext === '.jpeg' || ext === '.png') {
+    const webpPath = imagePath.replace(/\.(jpg|jpeg|png)$/i, '.webp');
+    const webpAbsolute = path.join(process.cwd(), 'public', webpPath);
+    if (fs.existsSync(webpAbsolute)) return webpPath;
+  }
+  return imagePath;
+}
 
 interface PageProps {
   params: Promise<{
@@ -92,6 +105,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
   const articleSchema = getArticleSchema(post);
   const breadcrumbSchema = getBlogBreadcrumbSchema(post);
+  const heroImage = resolveHeroImage(post.featuredImage);
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
@@ -112,10 +126,10 @@ export default async function BlogPostPage({ params }: PageProps) {
       {/* Hero Header with Featured Image */}
       <header className="relative h-[350px] md:h-[400px] overflow-hidden">
         {/* Background Image */}
-        {post.featuredImage && (
+        {heroImage && (
           <div className="absolute inset-0">
             <Image
-              src={post.featuredImage}
+              src={heroImage}
               alt={post.title}
               fill
               className="object-cover"

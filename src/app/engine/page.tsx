@@ -42,10 +42,10 @@ export default function EnginePage() {
                   Fire Engine
                 </h2>
                 <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                  Our proprietary <strong>Fire Engine</strong> is a custom-built 2D/3D game engine that powers all our game development. The engine is currently strongly specialized in 2D isometric games like you'd see in Real-time strategy (RTS) and 'God' games, with ongoing expansion toward broader 3D capabilities.
+                  Our proprietary <strong>Fire Engine</strong> is a custom-built 2D/3D game engine that powers all our game development. The engine is currently strongly specialized in 2D isometric games like you&apos;d see in Real-time strategy (RTS) and &apos;God&apos; games, with ongoing expansion toward broader 3D capabilities.
                 </p>
                 <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                  Built from the ground up with our specific needs in mind, Fire Engine gives us complete control over performance, rendering, and gameplay mechanics. This allows us to create unique gaming experiences that wouldn't be possible with off-the-shelf solutions.
+                  Built from the ground up with our specific needs in mind, Fire Engine gives us complete control over performance, rendering, and gameplay mechanics. This allows us to create unique gaming experiences that wouldn&apos;t be possible with off-the-shelf solutions.
                 </p>
                 <div className="bg-jagaco-light-gray rounded-lg p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-4 uppercase">Key Features</h3>
@@ -84,13 +84,14 @@ export default function EnginePage() {
                 </div>
               </div>
               <div className="order-1 lg:order-2 flex justify-center">
-                <div className="bg-gradient-to-br from-orange-100 to-red-100 rounded-2xl p-12 shadow-xl">
+                <div className="bg-gradient-to-br from-orange-100 to-red-100 rounded-2xl p-12 shadow-xl aspect-square">
                   <Image
                     src="/images/tech/FireEngineLogo.svg"
                     alt="Fire Engine Logo"
                     width={400}
                     height={400}
                     className="w-full h-auto"
+                    priority
                   />
                 </div>
               </div>
@@ -101,7 +102,7 @@ export default function EnginePage() {
           <section className="mb-24">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="flex justify-center">
-                <div className="bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl p-12 shadow-xl">
+                <div className="bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl p-12 shadow-xl aspect-square">
                   <Image
                     src="/images/tech/MatchboxLogo.svg"
                     alt="Matchbox Editor Logo"
@@ -116,7 +117,7 @@ export default function EnginePage() {
                   Matchbox Editor
                 </h2>
                 <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                  The <strong>Matchbox Editor</strong> serves as our comprehensive development suite, consolidating multiple specialized tools into one integrated platform. It's the command center where all our game content comes to life.
+                  The <strong>Matchbox Editor</strong> serves as our comprehensive development suite, consolidating multiple specialized tools into one integrated platform. It&apos;s the command center where all our game content comes to life.
                 </p>
                 <p className="text-gray-600 text-lg leading-relaxed mb-6">
                   What used to require multiple applications and manual file management now happens seamlessly and automatically in one place.
@@ -173,13 +174,13 @@ export default function EnginePage() {
                 Our Development Philosophy
               </h2>
               <p className="text-xl md:text-2xl leading-relaxed mb-8 text-white/90">
-                "Our custom engine and editor have allowed us to optimize our workflow to the max."
+                &ldquo;Our custom engine and editor have allowed us to optimize our workflow to the max.&rdquo;
               </p>
               <p className="text-lg leading-relaxed text-white/90 mb-6">
-                At Jagaco, we believe in having complete control over our development pipeline. While many studios rely on off-the-shelf engines, we've invested years in building custom technology that perfectly suits our needs.
+                At Jagaco, we believe in having complete control over our development pipeline. While many studios rely on off-the-shelf engines, we&apos;ve invested years in building custom technology that perfectly suits our needs.
               </p>
               <p className="text-lg leading-relaxed text-white/90">
-                This long-term investment in proprietary technology gives us the flexibility to innovate, the performance to excel, and the capability to bring unique gaming experiences to life that simply wouldn't be possible otherwise.
+                This long-term investment in proprietary technology gives us the flexibility to innovate, the performance to excel, and the capability to bring unique gaming experiences to life that simply wouldn&apos;t be possible otherwise.
               </p>
             </div>
           </section>
@@ -222,7 +223,7 @@ export default function EnginePage() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4 uppercase">Workflow</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Tools designed around our team's needs create a streamlined pipeline from concept to finished game.
+                  Tools designed around our team&apos;s needs create a streamlined pipeline from concept to finished game.
                 </p>
               </div>
             </div>

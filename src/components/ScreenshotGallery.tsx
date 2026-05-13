@@ -52,6 +52,7 @@ export default function ScreenshotGallery({ screenshots, gameTitle }: Screenshot
               width={800}
               height={450}
               className="object-cover w-full h-full"
+              loading="lazy"
             />
           </div>
         ))}

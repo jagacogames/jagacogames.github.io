@@ -1,11 +1,13 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
+import dynamic from 'next/dynamic';
 import { getGameBySlug, getAllGameSlugs } from '@/lib/markdown';
-import ReactMarkdown from 'react-markdown';
 import type { Metadata } from 'next';
 import ScreenshotGallery from '@/components/ScreenshotGallery';
 import { getVideoGameSchema, getGameBreadcrumbSchema, serializeStructuredData } from '@/lib/structuredData';
+
+const ReactMarkdown = dynamic(() => import('react-markdown'), { ssr: true });
 
 interface PageProps {
   params: Promise<{
@@ -79,6 +81,9 @@ export default async function GameDetailPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeStructuredData([videoGameSchema, breadcrumbSchema]) }}
       />
+      {game.featuredImage && (
+        <link rel="preload" as="image" href={game.featuredImage} fetchPriority="high" />
+      )}
 
       {/* Hero Section */}
       <div className="relative pt-32 pb-16 overflow-hidden">
@@ -91,6 +96,8 @@ export default async function GameDetailPage({ params }: PageProps) {
               fill
               className="object-cover"
               priority
+              sizes="100vw"
+              fetchPriority="high"
             />
             {/* Overlay with blur and darken effect */}
             <div className="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
@@ -156,6 +163,7 @@ export default async function GameDetailPage({ params }: PageProps) {
                   width={600}
                   height={400}
                   className="object-contain w-full h-full"
+                  fetchPriority="high"
                 />
               ) : (
                 <div className="text-white/60">
